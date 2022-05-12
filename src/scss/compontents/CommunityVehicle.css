@@ -1,0 +1,23 @@
+.wt-bnr-inr .wt-title {
+  color: #4a4a4a;
+  position: relative;
+}
+.wt-bnr-inr .wt-title::after {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 94px;
+  background-color: #5eb432;
+  top: -20px;
+  left: 5px;
+  border-radius: 25px;
+}
+.banner-image {
+  height: 535px;
+  width: 100%;
+}
+.page-contant .para {
+  color: #878787;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
