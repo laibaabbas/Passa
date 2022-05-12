@@ -33,20 +33,21 @@
   display: table;
   float: left;
   /* width: 190px; */
-  /* height: 77px; */
+  height: 77px;
   vertical-align: middle;
-  padding: 6px;
+  padding: 10px 20px;
   font-size: 36px;
   color: #000;
   margin: 0px;
   position: relative;
   z-index: 11;
+  /* height: 57px; */
+  width: 225px;
 }
 .header-style-3 .logo-header .logo-header-inner {
   display: table-cell;
   vertical-align: middle;
-  /* height: 77px; */
-  /* width: 225px; */
+  text-align: center;
 }
 .header-style-3 .logo-header .logo-header-inner img {
   max-width: 100%;
@@ -160,11 +161,12 @@
 }
 
 @media (max-width: 1199px) {
-  .header-style-3 .header-nav-call-section .detail {
-    font-size: 20px;
+  .header-style-3 .header-nav .nav > li > a {
+    font-size: 12px;
+    padding: 10px 6px;
   }
-  .header-style-3 .extra-nav .extra-cell {
-    padding-left: 5px;
+  .header-style-3 .extra-nav .btn {
+    font-size: 16px;
   }
 }
 @media (max-width: 1199px) {

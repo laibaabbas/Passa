@@ -33,7 +33,7 @@ const CommunityVehicle = () => {
                     families and community groups.
                   </p>
                 </div>
-                <div className="vehicle-img m-tb50">
+                <div className="vehicle-img m-t50">
                   <img src="./car-img.png" alt="" />
                 </div>
               </div>
@@ -44,7 +44,7 @@ const CommunityVehicle = () => {
                 </div>
               </div>
             </div>
-            <div className="booking-btn">
+            <div className="booking-btn m-t50">
               <button className="btn btn-green p-lr30  p-tb10">
                 Book a Vehicle
               </button>
