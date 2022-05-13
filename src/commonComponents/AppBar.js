@@ -3,9 +3,11 @@ import $ from "jquery";
 import { Link } from "react-router-dom";
 
 const AppBar = () => {
-  $("#mobile-side-drawer").on("click", function () {
-    $(".mobile-sider-drawer-menu").toggleClass("active");
-  });
+  function meanuToggle() {
+    $("#mobile-side-drawer").on("click", function () {
+      $(".mobile-sider-drawer-menu").toggleClass("active");
+    });
+  }
   return (
     <>
       {/* <!-- HEADER START --> */}
@@ -24,6 +26,7 @@ const AppBar = () => {
 
                 {/* <!-- NAV Toggle Button --> */}
                 <button
+                  onClick={meanuToggle}
                   id="mobile-side-drawer"
                   data-target="#header-nav"
                   data-toggle="collapse"
@@ -56,7 +59,7 @@ const AppBar = () => {
                       <Link to="/">News and Events</Link>
                     </li>
                     <li>
-                      <Link to="/communityVehicle">Book a Vehicle</Link>
+                      <Link to="/">Book a Vehicle</Link>
                     </li>
                   </ul>
                 </div>

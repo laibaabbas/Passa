@@ -5,7 +5,7 @@ const CommunityVehicle = () => {
     <>
       <section className="p-tb120 ">
         <div className="wt-bnr-inr p-t100 p-b40">
-          <div className="container">
+          <div className="container-lg">
             <div className="banner-title-name p-tb10">
               <h2 className="wt-title">Community Vehicle</h2>
             </div>

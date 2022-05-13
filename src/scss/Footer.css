@@ -221,18 +221,21 @@
 }
 
 /* FOOTER MEDIA QUIRI */
+@media (max-width: 1024px) {
+  .ftr-nw-ltr .ftr-nw-ltr-inner .ftr-nw-content .ftr-nw-title {
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+}
 @media (max-width: 991px) {
   .ftr-nw-ltr {
-    padding-top: 105px;
+    padding: 10px 0;
   }
-  .ftr-nw-ltr .ftr-nw-ltr-inner .ftr-nw-content {
-    display: block;
+  .ftr-nw-ltr::after,
+  .ftr-nw-ltr::before {
+    display: none;
   }
-  .ftr-nw-ltr .ftr-nw-ltr-inner .ftr-nw-content .ftr-nw-title {
-    margin-right: 0px;
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
+
   .footer-dark .footer-top {
     padding: 30px 0px 0px;
   }

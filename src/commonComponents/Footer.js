@@ -79,24 +79,22 @@ const Footer = () => {
                   <div className="widget widget_services ftr-list-center">
                     <ul>
                       <li>
-                        <a href="services-detail.html">Urdu School</a>
+                        <a href="/">Urdu School</a>
                       </li>
                       <li>
-                        <a href="services-detail.html">Meet the community</a>
+                        <a href="/">Meet the community</a>
                       </li>
                       <li>
-                        <a href="services-detail.html">Management committee</a>
+                        <a href="/">Management committee</a>
                       </li>
                       <li>
-                        <a href="services-detail.html">Strategic Objectives</a>
+                        <a href="/">Strategic Objectives</a>
                       </li>
                       <li>
-                        <a href="services-detail.html">
-                          Community Sports Programs
-                        </a>
+                        <a href="/">Community Sports Programs</a>
                       </li>
                       <li>
-                        <a href="services-detail.html">Funeral funds</a>
+                        <a href="/">Funeral funds</a>
                       </li>
                     </ul>
                   </div>
@@ -109,13 +107,13 @@ const Footer = () => {
                     </h3>
                     <ul className="social-icons">
                       <li>
-                        <a href="" className="fa fa-linkedin"></a>
+                        <a href="/" className="fa fa-linkedin"></a>
                       </li>
                       <li>
-                        <a href="" className="fa fa-facebook"></a>
+                        <a href="/" className="fa fa-facebook"></a>
                       </li>
                       <li>
-                        <a href="" className="fa fa-twitter"></a>
+                        <a href="/" className="fa fa-twitter"></a>
                       </li>
                       <li>
                         <svg
@@ -133,7 +131,7 @@ const Footer = () => {
                         {/* <a href="" className="fa fa-instagram"></a> */}
                       </li>
                       <li>
-                        <a href="" className="fa fa-youtube-play"></a>
+                        <a href="/" className="fa fa-youtube-play"></a>
                       </li>
                     </ul>
                   </div>
