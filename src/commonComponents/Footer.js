@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className=" footer-dark m-t120">
         <div className="ftr-nw-ltr site-bg-white">
           <div className="ftr-nw-ltr-inner site-bg-primary">
-            <div className="container">
+            <div className="container-md">
               <div className="ftr-nw-content">
                 <div className="ftr-nw-title">
                   <p>Are you ready to get our news letters?</p>
@@ -19,9 +19,7 @@ const Footer = () => {
                       placeholder="Enter email address"
                       type="text"
                     />
-                    <button className="ftr-nw-subcribe-btn btn-green btn">
-                      Submit
-                    </button>
+                    <button className="ftr-nw-subcribe-btn  btn">Submit</button>
                   </form>
                 </div>
               </div>
@@ -32,23 +30,23 @@ const Footer = () => {
           {/* <!-- FOOTER BLOCKES START -->   */}
           <div className="footer-top">
             <div className="container">
-              <div className="row">
-                <div className="col-lg-3 col-md-6">
-                  <div className="widget widget_about">
+              <div className="row ">
+                <div className="col-lg-4 p-0 col-md-6">
+                  <div className=" widget_about">
                     <div className="logo-footer clearfix">
                       <a href="/">
                         <img src="./paasa-logo.png" alt="" />
                       </a>
                     </div>
                     <p>
-                      PAASA is a not for profit community organisation in SA. We
-                      are united, trusted and progressing Pakistani community in
-                      South Australia.
+                      PAASA is a not for profit community <br /> organisation in
+                      SA. We are united, trusted and progressing Pakistani
+                      community in South Australia.
                     </p>
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-2 col-md-6">
                   <div className="widget widget_services ftr-list-center">
                     <ul>
                       <li>
@@ -75,7 +73,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-3 p-0 col-md-6">
                   <div className="widget widget_services ftr-list-center">
                     <ul>
                       <li>
@@ -100,7 +98,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-3 p-0 col-md-6">
                   <div className="widget widget_services ftr-list-center">
                     <h3 className="widget-title-dark">
                       Find us on social media
@@ -120,8 +118,8 @@ const Footer = () => {
                           xmlns="http://www.w3.org/2000/svg"
                           x="0px"
                           y="0px"
-                          width="34"
-                          height="34"
+                          width="27"
+                          height="27"
                           viewBox="0 0 50 50"
                           style={{ " fill": "#333333" }}
                         >

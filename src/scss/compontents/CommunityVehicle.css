@@ -1,14 +1,19 @@
+.wt-bnr-inr {
+  padding-top: 90px;
+}
 .wt-bnr-inr .wt-title {
   color: #4a4a4a;
   position: relative;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
 }
 .wt-bnr-inr .wt-title::after {
   position: absolute;
   content: "";
   height: 8px;
-  width: 94px;
+  width: 70px;
   background-color: #5eb432;
-  top: -20px;
+  top: -24px;
   left: 5px;
   border-radius: 25px;
 }
@@ -21,4 +26,21 @@
   color: #878787;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
+}
+@media (max-width: 767px) {
+  .page-contant .para {
+    font-size: 14px;
+  }
+  .wt-bnr-inr {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .wt-bnr-inr {
+    padding-top: 30px;
+  }
+  .wt-bnr-inr .wt-title::after {
+    height: 5px;
+    top: -10px;
+  }
 }
