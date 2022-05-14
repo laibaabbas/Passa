@@ -112,7 +112,7 @@ const VehicleCards = () => {
               onClose={handleClose}
             ></BootstrapDialogTitle>
             <div className="long-form ">
-              <div className="container-md">
+              <div className="container-lg">
                 <div className="form-heading">
                   <h4>Book a Vahicle</h4>
                 </div>

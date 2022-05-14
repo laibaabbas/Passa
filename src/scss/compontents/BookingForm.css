@@ -91,9 +91,29 @@ h4 {
 .css-lc2yqr-MuiButtonBase-root-MuiIconButton-root {
   background-color: #9d9d9d !important;
 } */
+@media (max-width: 1135px) {
+  .long-form {
+    width: 780px;
+    padding: 0px 30px 20px 30px;
+  }
+}
+@media (max-width: 845px) {
+  .long-form {
+    width: 580px;
+  }
+  .long-form .form-control {
+    margin: 15px 0;
+  }
+}
+@media (max-width: 845px) {
+  .long-form {
+    width: 400px;
+  }
+}
 
 @media (max-width: 425px) {
   .long-form {
+    width: 320px;
     padding: 0px 10px 20px 10px;
   }
 }
