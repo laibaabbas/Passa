@@ -67,13 +67,6 @@
   align-content: space-between;
 }
 
-.form-control {
-  height: 40px;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 10px 22px;
-  /* border-radius: 0px; */
-}
 .ftr-nw-ltr .ftr-nw-ltr-inner .ftr-nw-content .ftr-nw-form .form-control {
   height: 50px;
   margin-bottom: 10px;
@@ -195,7 +188,7 @@
   background-color: #017cb7;
 }
 
-.fa-facebook {
+.fa-facebook-f {
   background-color: #3b5796;
 }
 

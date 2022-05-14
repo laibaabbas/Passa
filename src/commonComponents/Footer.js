@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className=" footer-dark m-t120">
+      <footer className=" footer-dark m-t80">
         <div className="ftr-nw-ltr site-bg-white">
           <div className="ftr-nw-ltr-inner site-bg-primary">
             <div className="container-md">
@@ -108,7 +108,7 @@ const Footer = () => {
                         <a href="/" className="fa fa-linkedin"></a>
                       </li>
                       <li>
-                        <a href="/" className="fa fa-facebook"></a>
+                        <a href="/" className="fa fa-facebook-f"></a>
                       </li>
                       <li>
                         <a href="/" className="fa fa-twitter"></a>

@@ -1,9 +1,10 @@
 import React from "react";
+import VehicleCards from "../VehicleCards";
 
 const CommunityVehicle = () => {
   return (
     <>
-      <section className="p-tb120 ">
+      <section className="p-t120 ">
         <div className="wt-bnr-inr  p-b40">
           <div className="container-lg">
             <div className="banner-title-name p-tb10">
@@ -11,7 +12,7 @@ const CommunityVehicle = () => {
             </div>
 
             <div className="banner-image">
-              <img src="./Vehicle.png" alt="" />
+              <img className="rounded" src="./vehicles/header-car.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -30,12 +31,9 @@ const CommunityVehicle = () => {
                 socially isolated members, families and community groups.
               </p>
             </div>
-
-            <div className="booking-btn m-t50">
-              <button className="btn btn-green p-lr30  p-tb10">
-                Book a Vehicle
-              </button>
-            </div>
+          </div>
+          <div className="container">
+            <VehicleCards />
           </div>
         </div>
       </section>

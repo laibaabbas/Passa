@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import AppBar from "./commonComponents/AppBar";
 import Footer from "./commonComponents/Footer";
 import Home from "./components/Home";
-import CommunityVehicle from "./components/CommunityVehicle";
+import CommunityVehicle from "./components/BookingVehicale/CommunityVehicle";
 
 const App = () => {
   return (
