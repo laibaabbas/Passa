@@ -79,7 +79,9 @@ h4 {
   position: absolute;
 } */
 
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper,
+.css-uhb5lp,
+.MuiDialog-paper {
   max-width: 980px !important;
   /* width: none; */
   /* max-width: calc(100% - 65px) !important; */
