@@ -80,8 +80,9 @@ h4 {
 } */
 
 .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
-  /* width: 980px; */
-  max-width: calc(100% - 65px) !important;
+  max-width: 980px !important;
+  /* width: none; */
+  /* max-width: calc(100% - 65px) !important; */
 }
 
 /* .css-i4bv87-MuiSvgIcon-root {

@@ -6,7 +6,7 @@ const BookingForm = () => {
       <div class="col-lg-6">
         <input
           required
-          type="date"
+          type="datefilter"
           class="form-control date-form"
           id="inputdate"
           placeholder="select booking date"

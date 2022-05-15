@@ -69,7 +69,7 @@ const VehicleCards = () => {
       parah: "Hyundai sonata 2021: Pries, Verbrauch, FOTOS, Techische Daten",
     },
   ];
-  const [Steps, setSteps] = useState("1");
+  const [Steps, setSteps] = useState("0");
   const [Open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -77,6 +77,7 @@ const VehicleCards = () => {
   };
   const handleClose = () => {
     setOpen(false);
+    setSteps("1");
   };
 
   return (
@@ -153,16 +154,13 @@ const VehicleCards = () => {
           <>
             <BootstrapDialogTitle
               id="customized-dialog-title"
-              onClose={handleClose}
+              onClose={() => setSteps("1")}
             ></BootstrapDialogTitle>
 
             <Bookchargers />
 
             <DialogActions>
-              <button
-                onClick={() => setSteps("1")}
-                className="btn btn-outline-gray "
-              >
+              <button onClick={handleClose} className="btn btn-outline-gray ">
                 Cancel Booking
               </button>
             </DialogActions>
