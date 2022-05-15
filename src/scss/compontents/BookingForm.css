@@ -93,7 +93,8 @@ h4 {
   color: #f3f3f3 !important;
   padding: 4px !important;
 }
-.css-i4bv87-MuiSvgIcon-root {
+.css-i4bv87-MuiSvgIcon-root,
+.MuiSvgIcon-root {
   font-size: 14px !important;
 }
 /* 
@@ -124,6 +125,10 @@ h4 {
   .long-form {
     width: 320px;
     padding: 0px 10px 20px 10px;
+  }
+  .css-i4bv87-MuiSvgIcon-root,
+  .MuiSvgIcon-root {
+    font-size: 10px !important;
   }
 }
 @media (max-width: 375px) {
