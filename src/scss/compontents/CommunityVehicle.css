@@ -30,6 +30,8 @@
 }
 .page-contant .pg-title {
   font-size: 38px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .card {
   height: 420px;
@@ -67,6 +69,11 @@
   .page-contant .para {
     font-size: 14px;
   }
+  .page-contant .pg-title {
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
   .wt-bnr-inr {
     padding-top: 50px;
   }
@@ -78,6 +85,9 @@
 @media (max-width: 320px) {
   .wt-bnr-inr {
     padding-top: 30px;
+  }
+  .page-contant .pg-title {
+    font-size: 26px;
   }
   .wt-bnr-inr .wt-title::after {
     height: 5px;

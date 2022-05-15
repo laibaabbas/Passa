@@ -121,8 +121,35 @@ h4 {
   }
 }
 @media (max-width: 375px) {
-  .long-form .form-control {
+  .long-form {
+    width: 100%;
+    padding: 0px 5px 10px 5px;
+  }
+  .long-form .form-control,
+  .long-form .form-select {
     margin: 10px 0;
     width: 100%;
+    border-radius: none;
+  }
+  .form-check-label {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .long-form .form-control,
+  .long-form .form-select {
+    margin: 10px 0;
+    width: 100%;
+    height: 32px;
+    border-radius: none;
+    padding-left: 10px;
+    font-size: 10px;
+  }
+  .form-check-label {
+    font-size: 12px;
+  }
+  .long-form .form-select {
+    padding-top: 5px;
+    background-size: 10px 5px;
   }
 }

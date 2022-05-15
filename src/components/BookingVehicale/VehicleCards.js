@@ -9,8 +9,8 @@ import DialogActions from "@mui/material/DialogActions";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 
-import BookingForm from "./BookingVehicale/BookingForm";
-import Bookchargers from "./BookingVehicale/Bookcharges";
+import BookingForm from "./BookingForm";
+import Bookchargers from "./Bookcharges";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -83,10 +83,10 @@ const VehicleCards = () => {
   return (
     <>
       <div className="row">
-        <h1 className="pg-title p-tb10">Available Vehicle</h1>
+        <h1 className="pg-title">Available Vehicle</h1>
         {data.map((value, index) => {
           return (
-            <div class=" col-xl-3  col-md-6 col-sm-12">
+            <div class=" col-xl-3 col-sm-6 col-12">
               <div class="card text-center">
                 <img class="card-img-top " src={value.img} alt="Card cap" />
                 <div class="card-body">
@@ -158,12 +158,20 @@ const VehicleCards = () => {
             ></BootstrapDialogTitle>
 
             <Bookchargers />
-
-            <DialogActions>
-              <button onClick={handleClose} className="btn btn-outline-gray ">
-                Cancel Booking
-              </button>
-            </DialogActions>
+            <div className="container-lg  cnl-contain">
+              <div className="row">
+                <div className="col-12">
+                  <DialogActions>
+                    <button
+                      onClick={handleClose}
+                      className="btn btn-outline-dark cancel-btn"
+                    >
+                      Cancel Booking
+                    </button>
+                  </DialogActions>
+                </div>
+              </div>
+            </div>
           </>
         ) : (
           ""

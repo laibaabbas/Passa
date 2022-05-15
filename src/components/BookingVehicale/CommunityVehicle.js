@@ -1,5 +1,5 @@
 import React from "react";
-import VehicleCards from "../VehicleCards";
+import VehicleCards from "./VehicleCards";
 
 const CommunityVehicle = () => {
   return (
@@ -17,7 +17,7 @@ const CommunityVehicle = () => {
           </div>
         </div>
         <div className="page-contant">
-          <div className="container">
+          <div className="container-lg">
             <div className="para">
               <p>
                 With the help of Department of Multicultural Affairs, Office of
@@ -32,7 +32,7 @@ const CommunityVehicle = () => {
               </p>
             </div>
           </div>
-          <div className="container">
+          <div className="container-lg">
             <VehicleCards />
           </div>
         </div>

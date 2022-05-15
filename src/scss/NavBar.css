@@ -185,7 +185,7 @@
     /* padding: 0; */
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1039px) {
   .header-style-3 .header-nav .nav > li > a {
     font-size: 12px;
   }
@@ -269,7 +269,7 @@
   }
   .header-style-3 .header-nav .nav > li > a {
     padding: 16px 15px;
-    font-size: 16px;
+    font-size: 14px;
     border-top: 1px solid #e9e9e9;
     color: #4a4a4a;
     margin: 0px;
@@ -315,7 +315,7 @@
     width: 120px;
   }
 } */
-@media (max-width: 570px) {
+@media (max-width: 587px) {
   .header-style-3 .logo-header {
     padding-right: 0;
     padding-top: 0;

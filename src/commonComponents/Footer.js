@@ -29,9 +29,9 @@ const Footer = () => {
         <div className="ftr-bg">
           {/* <!-- FOOTER BLOCKES START -->   */}
           <div className="footer-top">
-            <div className="container">
+            <div className="container-sm">
               <div className="row ">
-                <div className="col-lg-4 p-0 col-md-6">
+                <div className="col-lg-4 col-md-6 col-12">
                   <div className=" widget_about">
                     <div className="logo-footer clearfix">
                       <a href="/">
@@ -46,7 +46,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-2 col-md-6">
+                <div className="col-lg-2 col-sm-6 col-6 col-xs-12">
                   <div className="widget widget_services ftr-list-center">
                     <ul>
                       <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 p-0 col-md-6">
+                <div className="col-lg-3 p-0 col-sm-6 col-6 col-xs-12">
                   <div className="widget widget_services ftr-list-center">
                     <ul>
                       <li>
@@ -98,7 +98,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 p-0 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="widget widget_services ftr-list-center">
                     <h3 className="widget-title-dark">
                       Find us on social media
@@ -115,11 +115,12 @@ const Footer = () => {
                       </li>
                       <li>
                         <svg
+                          className="insta-svg"
                           xmlns="http://www.w3.org/2000/svg"
                           x="0px"
                           y="0px"
-                          width="27"
-                          height="27"
+                          // width="27"
+                          // height="27"
                           viewBox="0 0 50 50"
                           style={{ " fill": "#333333" }}
                         >
