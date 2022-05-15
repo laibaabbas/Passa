@@ -86,11 +86,17 @@ h4 {
   /* width: none; */
   /* max-width: calc(100% - 65px) !important; */
 }
-
-/* .css-i4bv87-MuiSvgIcon-root {
-  font-size: 5px;
-  color: #245576;
+.css-qsfli3-MuiButtonBase-root-MuiIconButton-root,
+.MuiIconButton-root {
+  font-size: 8px !important;
+  background-color: #9d9d9d !important;
+  color: #f3f3f3 !important;
+  padding: 4px !important;
 }
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 14px !important;
+}
+/* 
 .css-lc2yqr-MuiButtonBase-root-MuiIconButton-root {
   background-color: #9d9d9d !important;
 } */

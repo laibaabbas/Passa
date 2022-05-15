@@ -162,10 +162,7 @@ const VehicleCards = () => {
               <div className="row">
                 <div className="col-12">
                   <DialogActions>
-                    <button
-                      onClick={handleClose}
-                      className="btn btn-outline-dark cancel-btn"
-                    >
+                    <button onClick={handleClose} className="btn  cancel-btn">
                       Cancel Booking
                     </button>
                   </DialogActions>
