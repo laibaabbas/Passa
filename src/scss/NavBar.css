@@ -10,8 +10,8 @@
 .header-style-3 .main-bar {
   position: relative;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   transition: all 0.5s ease;
   background: #ffffff;
   opacity: 0.939;
@@ -119,7 +119,6 @@
   background-color: transparent;
   color: #5eb432;
   transition: all 0.5s ease;
-  font-weight: 500;
 }
 .header-style-3 .header-nav .nav > li > a:active,
 .header-style-3 .header-nav .nav > li > .actice {
@@ -130,8 +129,8 @@
 .header-style-3 .header-nav .nav > li > a:active:after,
 .header-style-3 .header-nav .nav > li > a:focus ::after {
   content: "";
-  height: 3px;
-  width: 60px;
+  height: 2px;
+  width: 42px;
   background-color: #5eb432;
   transition: all 0.5s ease;
   position: absolute;
@@ -186,6 +185,10 @@
   }
 }
 @media (max-width: 1039px) {
+  .header-style-3 .main-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .header-style-3 .header-nav .nav > li > a {
     font-size: 12px;
   }

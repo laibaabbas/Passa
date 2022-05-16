@@ -3,7 +3,7 @@
 body {
   color: #4a4a4a;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.7;
+  line-height: 1.5;
   font-weight: 400;
   padding: 0px;
   margin: 0px;
@@ -89,12 +89,12 @@ img {
   color: #ffffff;
   border: 2px solid #878787;
   color: #878787;
-  box-shadow: 0px 3px 3px rgba(116, 121, 114, 0.3);
+  box-shadow: 0px 3px 5px rgba(94, 180, 50, 0.3);
 }
 .btn-outline-gray:hover {
-  filter: brightness(60%);
-
-  box-shadow: 2px 2px 6px rgba(116, 121, 114, 0.3);
+  color: #5eb432;
+  border-color: rgba(94, 180, 50, 0.5);
+  box-shadow: 2px 3px 6px rgba(94, 180, 50, 0.3);
 }
 .text-left {
   text-align: left;
