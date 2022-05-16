@@ -44,7 +44,7 @@ const BookingForm = () => {
           type="text"
           class="form-control"
           id="inputEmergancyNumber"
-          placeholder="Emergency Number"
+          placeholder="Emergency phone number"
         />
         <input
           type="text"
@@ -58,7 +58,7 @@ const BookingForm = () => {
           type="text"
           class="form-control"
           id="inputPhoneNumber"
-          placeholder="Phone Number"
+          placeholder="Phone number"
         />
       </div>
     </>

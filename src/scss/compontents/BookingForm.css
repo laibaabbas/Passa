@@ -24,7 +24,9 @@ h4 {
 .long-form .form-control:focus {
   box-shadow: -1px 1px 3px #245576;
 }
-.css-153eyq5-MuiModal-root-MuiDialog-root .MuiDialogActions-root {
+.css-153eyq5-MuiModal-root-MuiDialog-root,
+.css-14b29qc,
+.MuiDialogActions-root {
   padding: 0px !important;
 }
 .long-form button {
