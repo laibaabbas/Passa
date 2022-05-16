@@ -1,31 +1,37 @@
 .long-form {
-  width: 980px;
+  width: 800px;
   padding: 0px 40px 40px 40px;
 }
 .long-form .form-heading {
   text-align: center;
-  /* padding-top: 10px; */
+  padding-bottom: 10px;
 }
 h4 {
   font-weight: 600;
   color: #245576;
   font-family: "Lato", sans-serif;
 }
+
 .long-form .form-control {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
   /* margin: 20px 20px 30px 20px; */
   /* width: 95%; */
   border: 0;
   background-color: #f3f3f3;
+  font-size: 14px;
 }
 .long-form .form-control:focus {
   box-shadow: -1px 1px 3px #245576;
+}
+.css-153eyq5-MuiModal-root-MuiDialog-root .MuiDialogActions-root {
+  padding: 0px !important;
 }
 .long-form button {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 18px !important;
 }
 .long-form .form-check {
   margin: 20px auto;
@@ -112,7 +118,7 @@ h4 {
     width: 580px;
   }
   .long-form .form-control {
-    margin: 15px 0;
+    margin-bottom: 15px;
   }
 }
 @media (max-width: 845px) {
@@ -120,15 +126,35 @@ h4 {
     width: 400px;
   }
 }
+@media (max-width: 587px) {
+  .long-form {
+    width: 350px;
+  }
+  .long-form .form-control,
+  .long-form .form-select {
+    font-size: 12px;
+  }
+}
 
 @media (max-width: 425px) {
   .long-form {
-    width: 320px;
-    padding: 0px 10px 20px 10px;
+    width: 300px;
+    padding: 0px 10px 15px 10px;
   }
   .css-i4bv87-MuiSvgIcon-root,
   .MuiSvgIcon-root {
     font-size: 10px !important;
+  }
+  .long-form .form-control,
+  .long-form .form-select {
+    width: 100%;
+    height: 40px;
+    font-size: 10px;
+  }
+  .long-form button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px !important;
   }
 }
 @media (max-width: 375px) {
@@ -138,7 +164,7 @@ h4 {
   }
   .long-form .form-control,
   .long-form .form-select {
-    margin: 10px 0;
+    margin-bottom: 10px;
     width: 100%;
     border-radius: none;
   }
@@ -149,10 +175,8 @@ h4 {
 @media (max-width: 320px) {
   .long-form .form-control,
   .long-form .form-select {
-    margin: 10px 0;
     width: 100%;
     height: 32px;
-    border-radius: none;
     padding-left: 10px;
     font-size: 10px;
   }

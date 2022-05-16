@@ -120,7 +120,14 @@ const VehicleCards = () => {
                 <form>
                   <div class="row">
                     <BookingForm />
-                    <div className="col-lg-6 "></div>
+                    <div className="col-lg-6 ">
+                      <input
+                        type="text"
+                        class="form-control "
+                        id="inputDiverName"
+                        placeholder="Name of driver"
+                      />
+                    </div>
                     <div className="col-lg-6">
                       <DialogActions>
                         <button

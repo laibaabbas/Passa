@@ -13,6 +13,13 @@ const BookingForm = () => {
         />
         <input
           required
+          type="date"
+          class="form-control date-form"
+          id="inputdate"
+          placeholder="select booking date"
+        />
+        <input
+          required
           type="text"
           class="form-control"
           id="inputPhoneNumber"
@@ -23,12 +30,6 @@ const BookingForm = () => {
           class="form-control"
           id="inputEmail"
           placeholder="Email"
-        />
-        <input
-          type="text"
-          class="form-control"
-          id="inputDiverName"
-          placeholder="Name of driver"
         />
       </div>
       <div class=" col-lg-6">
