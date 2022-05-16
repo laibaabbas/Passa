@@ -165,14 +165,16 @@ const VehicleCards = () => {
             ></BootstrapDialogTitle>
 
             <Bookchargers />
-            <div className="container-lg  cnl-contain">
-              <div className="row">
-                <div className="col-12">
-                  <DialogActions>
-                    <button onClick={handleClose} className="btn  cancel-btn">
-                      Cancel Booking
-                    </button>
-                  </DialogActions>
+            <div className="cnl-contain">
+              <div className="container">
+                <div className="row">
+                  <div className="col-12">
+                    <DialogActions>
+                      <button onClick={handleClose} className="btn  cancel-btn">
+                        Cancel Booking
+                      </button>
+                    </DialogActions>
+                  </div>
                 </div>
               </div>
             </div>
