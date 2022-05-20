@@ -1,63 +1,26 @@
 import React, { useState } from "react";
-import $ from "jquery";
 import { Link } from "react-router-dom";
-
-const AppBar = () => {
-  function meanuToggle() {
-    $("#mobile-side-drawer").on("click", function () {
-      $(".mobile-sider-drawer-menu").toggleClass("active");
-    });
+const HomeNav = () => {
+  function toggleSidenav() {
+    document
+      .querySelector(".mobile-sider-drawer-menu")
+      .classList.toggleClass("active");
   }
-  // function ToggleNav() {
-  //   document
-  //     .getElementById("mobile-side-drawer")
-  //     .addEventListener("click", toggleSidenav);
-  // }
-  // function toggleSidenav() {
-  //   document
-  //     .querySelector(".mobile-sider-drawer-menu")
-  //     .classList.toggleClass("active");
-  // }
-  // $(window).scroll(function () {
-  //   var scroll = $(window).scrollTop();
-  //   if (scroll > 100) {
-  //     $(".main-bar").css("background", "#ffffff");
-  //   } else {
-  //     $(".main-bar").css("background", "transparent");
-  //   }
-  // });
-  // const [navbar, setNavbar] = useState(false)
-  // const changeBackground = () => {
-  //   console.log(window.scrollY)
-  //   if (window.scrollY >= 66) {
-  //     setNavbar(true)
-  //   } else {
-  //     setNavbar(false)
-  //   }
-  // }
-  const [ColorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () => {
-    if (window.scrollY >= 100) {
-      setColorchange(true);
-    } else {
-      setColorchange(false);
-    }
-  };
-  window.addEventListener("scroll", changeNavbarColor);
+  function ToggleNav() {
+    document
+      .getElementById("mobile-side-drawer")
+      .addEventListener("click", toggleSidenav);
+  }
   return (
     <>
       {/* <!-- HEADER START --> */}
       <header className="site-header header-style-3 mobile-sider-drawer-menu ">
         <div className="sticky-wrapper" style={{ height: "90px;" }}>
           <div className="is-fixed main-bar-wraper navbar-expand-lg sticky-header">
-            <div
-              className={
-                ColorChange ? "main-bar  color-fill" : "main-bar shadow"
-              }
-            >
+            <div className="main-bar " style={{ position: "relative" }}>
               <div className="container-fluid clearfix">
-                <div className="logo-header">
-                  <div className="logo-header-inner logo-header-one">
+                <div className="logo-header home-navlogo">
+                  <div className="logo-header-inner logo-header-one ">
                     <Link to="/">
                       <img src="./paasa-logo.png" alt="" />
                     </Link>
@@ -66,7 +29,7 @@ const AppBar = () => {
 
                 {/* <!-- NAV Toggle Button --> */}
                 <button
-                  onClick={meanuToggle}
+                  onClick={ToggleNav}
                   id="mobile-side-drawer"
                   data-target="#header-nav"
                   data-toggle="collapse"
@@ -82,8 +45,9 @@ const AppBar = () => {
 
                 {/* <!-- MAIN Vav --> */}
                 <div
-                  id="header-nav"
-                  className="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center"
+                  id="
+                  header-nav"
+                  className="nav-animation home-navbar header-nav navbar-collapse collapse d-flex justify-content-center"
                 >
                   <ul className=" nav navbar-nav">
                     <li className="nav-item">
@@ -130,4 +94,4 @@ const AppBar = () => {
   );
 };
 
-export default AppBar;
+export default HomeNav;

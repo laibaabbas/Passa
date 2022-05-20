@@ -59,7 +59,7 @@ h4 {
   text-decoration: underline;
 }
 .long-form .form-select {
-  background-image: url("../../../public/vehicles/Path25.svg");
+  background-image: url("../../../../public/vehicles/Path25.svg");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 12px 10px;

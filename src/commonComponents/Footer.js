@@ -64,7 +64,7 @@ const Footer = () => {
                         <a href="/">COVID 19 Ifo</a>
                       </li>
                       <li>
-                        <a href="/">Book a Vehical</a>
+                        <a href="/BookVehicle">Book a Vehicle</a>
                       </li>
                       <li>
                         <a href="/">Contact Us</a>

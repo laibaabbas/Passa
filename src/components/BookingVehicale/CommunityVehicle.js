@@ -1,9 +1,11 @@
 import React from "react";
+import AppBar from "../../commonComponents/AppBar";
 import VehicleCards from "./VehicleCards";
 
 const CommunityVehicle = () => {
   return (
     <>
+      <AppBar />
       <section className="p-t120 ">
         <div className="wt-bnr-inr  p-b40">
           <div className="container-lg">

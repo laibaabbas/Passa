@@ -6,15 +6,18 @@
   left: 0px;
   top: 0px;
   z-index: 999;
+  /* opacity: 0.2; */
 }
 .header-style-3 .main-bar {
   position: relative;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0px 20px 20px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
   transition: all 0.5s ease;
-  background: #ffffff;
-  opacity: 0.939;
+
+  /* background: #ffffff; */
+  /* opacity: 0.8; */
 }
 .header-style-3 .main-bar {
   position: fixed;
@@ -23,6 +26,7 @@
 }
 .header-style-3 .is-fixed .color-fill .main-bar {
   background-color: #ffffff;
+  opacity: 0.8;
 }
 .header-style-3 .main-bar .container,
 .header-style-3 .main-bar .container-fluid {
@@ -36,13 +40,29 @@
   max-width: 225px;
   /* width: 190px; */
   vertical-align: middle;
-  padding: 10px 20px;
+  padding: 15px;
   font-size: 36px;
   color: #000;
-  margin: 0px;
   position: relative;
   z-index: 11;
-  height: 57px;
+  height: 40px;
+  margin: 0 48px 0 0;
+}
+.header-style-3 .home-navlogo {
+  margin-left: 20px;
+}
+.header-style-3 .home-navlogo::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.6;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  border-radius: 900px;
+  clip-path: ellipse(48% 50% at 50% 50%);
 }
 .header-style-3 .logo-header .logo-header-inner {
   display: table-cell;
@@ -52,6 +72,7 @@
 .header-style-3 .logo-header .logo-header-inner img {
   max-width: 100%;
   max-height: 100%;
+  height: 57px;
 }
 .header-style-3 .navbar-toggler {
   border: none;
@@ -102,6 +123,7 @@
   padding: 10px 0px;
   font-family: "Open Sans", sans-serif;
 }
+
 .header-style-3 .header-nav .nav > li > a {
   color: #4a4a4a;
   font-size: 17px;
@@ -110,6 +132,9 @@
   margin: 0px 0px;
   display: block;
   position: relative;
+}
+.header-style-3 .home-navbar .nav > li > a {
+  color: #ffffff;
 }
 .header-style-3 .header-nav .nav > li:hover > a {
   color: #5eb432;
@@ -125,6 +150,20 @@
   color: #5eb432;
   transition: all 0.5s ease;
 }
+.header-style-3 .home-navbar.nav > li:hover > a {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.header-style-3 .home-navbar .nav > li > a:hover {
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.header-style-3 .home-navbar .nav > li > a:active,
+.header-style-3 .home-navbar .nav > li > .actice {
+  color: #fff;
+  transition: all 0.5s ease;
+}
 .header-style-3 .header-nav .nav > li:hover > a::after,
 .header-style-3 .header-nav .nav > li > a:active:after,
 .header-style-3 .header-nav .nav > li > a:focus ::after {
@@ -138,6 +177,19 @@
   bottom: 10px;
   border-radius: 15px;
 }
+.header-style-3 .home-navbar .nav > li:hover > a::after,
+.header-style-3 .home-navbar .nav > li > a:active:after,
+.header-style-3 .home-navbar .nav > li > a:focus ::after {
+  content: "";
+  height: 2px;
+  width: 42px;
+  background-color: #ffffff;
+  transition: all 0.8s ease;
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  border-radius: 15px;
+}
 
 .header-style-3 .extra-nav {
   display: table;
@@ -145,14 +197,14 @@
   /* height: 70px; */
   position: relative;
   z-index: 13;
-  margin: 10px;
+  margin: 10px 0px 10px 15px;
 }
 .header-style-3 .extra-nav .btn {
-  margin-right: 10px;
+  margin-right: 15px;
   padding: 10px 18px;
 }
 .header-style-3 .extra-nav .btn-green {
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 11px 18px;
 }
 .clearfix:after {

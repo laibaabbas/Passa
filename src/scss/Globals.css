@@ -1248,6 +1248,5 @@ img {
 }
 @import "./NavBar.css";
 @import "./Footer.css";
-@import "./compontents/CommunityVehicle.css";
-@import "./compontents/BookingForm.css";
-@import "./compontents/BookCharges.css";
+@import "./compontents/BookVehicle/BookVehicle.css";
+@import "./compontents/homeCss/MainHome.css";
