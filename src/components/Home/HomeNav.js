@@ -51,7 +51,7 @@ const HomeNav = () => {
                 >
                   <ul className=" nav navbar-nav">
                     <li className="nav-item">
-                      <Link className="nav-link" to="/">
+                      <Link className="nav-link" to="/AboutPaasa">
                         About PASSA
                       </Link>{" "}
                     </li>

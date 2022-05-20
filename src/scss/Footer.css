@@ -34,7 +34,7 @@
   right: -10px;
   clip-path: polygon(0 50%, 100% 100%, 100% 0);
 }
-.ftr-nw-ltr .ftr-nw-ltr-inner .ftr-nw-content .ftr-nw-title {
+.ftr-nw-ltr .ftr-nw-ltr-inner .ftr-nw-content .ftr-nw-title p {
   font-size: 45px;
   color: #ffffff;
   font-weight: 300;

@@ -18,26 +18,10 @@ const AppBar = () => {
   //     .querySelector(".mobile-sider-drawer-menu")
   //     .classList.toggleClass("active");
   // }
-  // $(window).scroll(function () {
-  //   var scroll = $(window).scrollTop();
-  //   if (scroll > 100) {
-  //     $(".main-bar").css("background", "#ffffff");
-  //   } else {
-  //     $(".main-bar").css("background", "transparent");
-  //   }
-  // });
-  // const [navbar, setNavbar] = useState(false)
-  // const changeBackground = () => {
-  //   console.log(window.scrollY)
-  //   if (window.scrollY >= 66) {
-  //     setNavbar(true)
-  //   } else {
-  //     setNavbar(false)
-  //   }
-  // }
+
   const [ColorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 300) {
       setColorchange(true);
     } else {
       setColorchange(false);
@@ -52,7 +36,7 @@ const AppBar = () => {
           <div className="is-fixed main-bar-wraper navbar-expand-lg sticky-header">
             <div
               className={
-                ColorChange ? "main-bar  color-fill" : "main-bar shadow"
+                ColorChange ? "main-bar  color-fill shadow" : "main-bar shadow"
               }
             >
               <div className="container-fluid clearfix">
@@ -87,7 +71,7 @@ const AppBar = () => {
                 >
                   <ul className=" nav navbar-nav">
                     <li className="nav-item">
-                      <Link className="nav-link" to="/">
+                      <Link className="nav-link" to="/AboutPaasa">
                         About PASSA
                       </Link>{" "}
                     </li>

@@ -10,11 +10,11 @@
 .wt-bnr-inr .wt-title::after {
   position: absolute;
   content: "";
-  height: 8px;
+  height: 6px;
   width: 70px;
   background-color: #5eb432;
   top: -24px;
-  left: 5px;
+  left: 0px;
   border-radius: 25px;
 }
 .banner-image {

@@ -10,6 +10,9 @@ body {
   overflow-x: hidden;
   font-size: 15px;
 }
+p {
+  color: #878787;
+}
 
 a {
   color: #4a4a4a;
@@ -35,7 +38,10 @@ a:focus {
 .overflow-hide {
   overflow: hidden;
 }
-
+::selection {
+  background-color: #245576;
+  color: #ffffff;
+}
 img {
   border-style: none;
   height: inherit;
@@ -1246,6 +1252,8 @@ img {
 .bg-scroll {
   background-attachment: scroll;
 }
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 @import "./NavBar.css";
 @import "./Footer.css";
 @import "./compontents/BookVehicle/BookVehicle.css";
