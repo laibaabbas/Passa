@@ -4,11 +4,11 @@
 }
 .overlay-wapper {
   width: 100%;
-  position: relative;
-  height: 96vh;
+  /* position: relative; */
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100%;
+  background-position: 100% 80%;
 }
 /* .overlay-wapper img {
   display: flex;
