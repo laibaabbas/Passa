@@ -80,7 +80,7 @@ const NewEvents = () => {
     <>
       <section>
         <div className="container-lg">
-          <div className="wt-bnr-inr ">
+          <div className="wt-bnr-inr m-t120">
             <div className="home-title-name p-tb10 left-green">
               <h1 className="wt-title">Community News & Events</h1>
             </div>

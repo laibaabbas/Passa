@@ -5,7 +5,7 @@ const SportsPrograms = () => {
   return (
     <>
       <section>
-        <div className="container-lg">
+        <div className="container-lg m-t60">
           <div className="row">
             <div className="col-lg-6">
               <div
@@ -21,25 +21,25 @@ const SportsPrograms = () => {
                 <div className="home-title-name p-tb10">
                   <h1 className="wt-title">Community Sports Programs</h1>
                 </div>
-                <div className="home-para">
-                  <p>
-                    This was Dr Ashfaque Ahmed who came to Australia in 1962 in
-                    Sydney and then moved to Adelaide to work in The Royal
-                    Adelaide hospital in 1965, decided to start a Pakistani
-                    Association. His idea finally came into existence in 1967
-                    with the name as Australian Pakistani Association. Dr.
-                    Ashfaque Ahmed was the first President with Vice President
-                    Captain Sabir Shah of the Pakistani Army, and treasurer Mr.
-                    Azhar Jamal Minhas from Lahore. Later in 1984 that
-                    association become Pakistani Australian Association of SA-
-                    PAASA with Mr. Shamim Noori as President,
-                  </p>
-                </div>
-                <div className="info-link">
-                  <a href="/">
-                    See more information <ArrowForwardIcon />{" "}
-                  </a>
-                </div>
+              </div>
+              <div className="home-para">
+                <p>
+                  This was Dr Ashfaque Ahmed who came to Australia in 1962 in
+                  Sydney and then moved to Adelaide to work in The Royal
+                  Adelaide hospital in 1965, decided to start a Pakistani
+                  Association. His idea finally came into existence in 1967 with
+                  the name as Australian Pakistani Association. Dr. Ashfaque
+                  Ahmed was the first President with Vice President Captain
+                  Sabir Shah of the Pakistani Army, and treasurer Mr. Azhar
+                  Jamal Minhas from Lahore. Later in 1984 that association
+                  become Pakistani Australian Association of SA- PAASA with Mr.
+                  Shamim Noori as President,
+                </p>
+              </div>
+              <div className="info-link">
+                <a href="/">
+                  See more information <ArrowForwardIcon />{" "}
+                </a>
               </div>
             </div>
           </div>

@@ -43,7 +43,7 @@ const StrategicObjective = () => {
         <div className="container-lg">
           <div className="row">
             <div className="col-lg-7">
-              <div className="wt-bnr-inr m-t120">
+              <div className="wt-bnr-inr m-t60">
                 <div className="home-title-name p-tb10">
                   <h1 className="wt-title"> Strategic Objectives</h1>
                 </div>
