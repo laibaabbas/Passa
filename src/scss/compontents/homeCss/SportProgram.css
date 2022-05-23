@@ -1,0 +1,23 @@
+.sport-bg-img {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 75% 90%;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  position: relative;
+}
+.sport-bg-img .upper-left {
+  position: absolute;
+  width: 350px;
+  height: 260px;
+  top: 70px;
+  left: 100px;
+}
+.sport-bg-img .lower-right {
+  position: absolute;
+  width: 320px;
+  height: 400px;
+  right: 30px;
+  bottom: 30px;
+}

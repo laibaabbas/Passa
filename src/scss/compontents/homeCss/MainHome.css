@@ -1,5 +1,9 @@
 @import "./Header.css";
-
+@import "./CovidVaccin.css";
+@import "./AdBanner.css";
+@import "./NewEvents.css";
+@import "./SportProgram.css";
+@import "./StrategicalObjective.css";
 .home-title-name .wt-title {
   font-weight: 700;
 }
@@ -17,6 +21,44 @@
   color: #5eb432;
   text-decoration: underline;
 }
-/* .info-link a::after {
-  content: "\f061";
-} */
+
+.css-i4bv87-MuiSvgIcon-root,
+.MuiSvgIcon-root {
+  font-size: 22px !important;
+  margin-left: 5px;
+  transition: all ease;
+}
+.clippy {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+.clippy .green-clip {
+  align-self: flex-end;
+  background-color: #6bba42;
+  width: 53%;
+  height: 50%;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  border-bottom: 30px solid #5eb432;
+}
+.clippy .blue-clip {
+  align-self: flex-start;
+  background-color: #356281;
+  width: 53%;
+  height: 50%;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  /* border-bottom: 30px solid #245576; */
+  position: relative;
+}
+.clippy .blue-clip::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  background-color: #245576;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
+  clip-path: polygon(84% 0, 100% 0%, 0 100%, 0 84%);
+}

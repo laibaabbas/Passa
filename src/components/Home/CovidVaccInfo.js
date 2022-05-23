@@ -1,17 +1,28 @@
 import React from "react";
-
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-
-const WelcomToPaasa = () => {
+const CovidVaccInfo = () => {
   return (
     <>
       <section>
         <div className="container-lg">
           <div className="row">
-            <div className="col-lg-7">
+            <div className="col-lg-6 col-md-12">
+              <div
+                className="side-image"
+                style={{ backgroundImage: "url(./home/Covid-bg.png)" }}
+              >
+                <img className="topLeft-img" src="./home/Covid.png" alt="" />
+                <img
+                  className="bottomRight-img"
+                  src="./home/vaccine.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12">
               <div className="wt-bnr-inr">
                 <div className="home-title-name p-tb10">
-                  <h1 className="wt-title">Welcome to PAASA</h1>
+                  <h1 className="wt-title">COVID 19 Vaccinations info</h1>
                 </div>
                 <div className="home-para">
                   <p>
@@ -24,33 +35,21 @@ const WelcomToPaasa = () => {
                     Captain Sabir Shah of the Pakistani Army, and treasurer Mr.
                     Azhar Jamal Minhas from Lahore. Later in 1984 that
                     association become Pakistani Australian Association of SA-
-                    PAASA with Mr. Shamim Noori as President, Dr. Khalid Farooqi
-                    as Secretary and Dr. Farooq as Treasurer.Since then PAASA
-                    has been representing Pakistani community in South Australia
-                    on social and cultural platforms and providing platform to
-                    the community members to not only celebrate their events of
-                    significant importance but also to showcase our ethnic
-                    diversity, unique culture and social and religious values to
-                    the multicultural communities in SA.
+                    PAASA with Mr. Shamim Noori as President,
                   </p>
                 </div>
                 <div className="info-link">
                   <a href="/">
-                    See more information <ArrowForwardIcon />
+                    See more information <ArrowForwardIcon />{" "}
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-5"></div>
           </div>
-        </div>
-        <div className="clippy">
-          <div className="green-clip"></div>
-          <div className="blue-clip"></div>
         </div>
       </section>
     </>
   );
 };
 
-export default WelcomToPaasa;
+export default CovidVaccInfo;

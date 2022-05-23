@@ -1,0 +1,50 @@
+.ad-banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 0;
+}
+.ad-banner .green-left {
+  align-self: flex-start;
+  background-color: #5eb432;
+  height: 330px;
+  width: 210px;
+  clip-path: polygon(0 0, 0 100%, 100% 50%);
+  position: relative;
+  z-index: 2;
+}
+.ad-banner .green-left::after {
+  content: "";
+  background-color: #e4f2dc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  clip-path: polygon(0 0, 100% 50%, 0 100%, 0% 100%, 75% 50%, 0 0);
+  left: 0px;
+  z-index: 0;
+  right: 0;
+}
+.ad-banner .green-right {
+  align-self: flex-end;
+  background-color: #5eb432;
+  height: 330px;
+  width: 210px;
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  position: relative;
+}
+.ad-banner .green-right::after {
+  content: "";
+  background-color: #e4f2dc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  clip-path: polygon(100% 0%, 25% 50%, 100% 100%, 100% 100%, 0 50%, 100% 0);
+  left: 0px;
+  z-index: 0;
+  right: 0;
+}
+.ad-banner .banner-center {
+  align-self: center;
+  background-color: #fcdf4c;
+  height: 180px;
+  width: 63%;
+}
