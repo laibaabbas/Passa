@@ -22,8 +22,8 @@
   text-decoration: underline;
 }
 
-.css-i4bv87-MuiSvgIcon-root,
-.MuiSvgIcon-root {
+.info-link .css-i4bv87-MuiSvgIcon-root,
+.info-link .MuiSvgIcon-root {
   font-size: 22px !important;
   margin-left: 5px;
   transition: all ease;

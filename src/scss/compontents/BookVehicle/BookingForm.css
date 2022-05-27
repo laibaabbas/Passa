@@ -1,5 +1,6 @@
 .long-form {
   width: 800px;
+  /* width: auto; */
   padding: 0px 40px 40px 40px;
 }
 .long-form .form-heading {
@@ -16,7 +17,7 @@ h4 {
   /* margin-top: 20px; */
   margin-bottom: 20px;
   /* margin: 20px 20px 30px 20px; */
-  /* width: 95%; */
+
   border: 0;
   background-color: #f3f3f3;
   font-size: 14px;

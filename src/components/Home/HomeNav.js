@@ -80,7 +80,9 @@ const HomeNav = () => {
 
                 {/* <!-- Header Right Section--> */}
                 <div className="extra-nav header-2-nav">
-                  <button className="btn btn-outline-gray">Join Us</button>
+                  <Link to="/LogIn" className="btn btn-outline-gray">
+                    Join Us
+                  </Link>
 
                   <button className="btn btn-green ">$ Donate us</button>
                 </div>

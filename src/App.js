@@ -5,7 +5,8 @@ import Footer from "./commonComponents/Footer";
 import Home from "./components/Home/Home";
 import CommunityVehicle from "./components/BookingVehicale/CommunityVehicle";
 import AboutPaasa from "./components/About/AboutPaasa";
-import AppBar from "./commonComponents/AppBar";
+
+import LogIn from "./components/JoinIn/Login";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/BookVehicle" element={<CommunityVehicle />} />
         <Route path="/AboutPaasa" element={<AboutPaasa />} />
+        <Route path="/LogIn" element={<LogIn />} />
       </Routes>
       <Footer />
     </>
