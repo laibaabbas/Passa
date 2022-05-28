@@ -144,7 +144,7 @@ const VehicleCards = () => {
                           value=""
                           id="defaultCheck1"
                         />
-                        <label class="form-check-label" for="defaultCheck1">
+                        <label class="form-check-label " for="defaultCheck1">
                           <a href="/">Term & Conditions</a>
                         </label>
                       </div>

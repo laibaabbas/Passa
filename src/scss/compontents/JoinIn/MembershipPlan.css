@@ -1,0 +1,17 @@
+.membership-plan .banner-nav a,
+.membership-plan .banner-nav i {
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: 600;
+}
+.membership-plan .banner-nav i {
+  margin: 0 10px;
+}
+.membership-plan .banner-nav .green-text {
+  color: #5eb432;
+  font-size: 16px;
+  font-weight: 600;
+}
+.membership-plan .banner-nav a:hover {
+  color: #5eb432;
+}
