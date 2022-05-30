@@ -1,0 +1,54 @@
+.payment-card .card {
+  width: 370px;
+  height: 480px;
+  margin: 50px auto 20px auto;
+}
+.payment-card .card .card-header {
+  border: 1px solid #245576;
+}
+.payment-card .card .card-body {
+  /* border: 1px dashed rgba(112, 112, 112, 0.7);
+  border-style: dashed; */
+  justify-content: space-evenly;
+
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23333' stroke-width='1' stroke-dasharray='8%2c 8' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.payment .change-package {
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+.payment .change-package a {
+  font-size: 24px;
+  color: #9d9d9d;
+  font-weight: 500;
+}
+.pay-contan {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.payment-form {
+  width: 470px;
+  padding: 0 0 0 30px;
+}
+.payment-form .form-heading {
+  text-align: left;
+  margin: 0 0 40px 0;
+}
+.payment-form .paypal-img {
+  width: 100px;
+}
+.payment-form .form-check {
+  margin: 30px 0;
+}
+.payment-form .credit-card {
+  background-image: url("../../../../public/JoinIn/credit.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 65px;
+}

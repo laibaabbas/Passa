@@ -92,14 +92,21 @@ const MembershipPlan = () => {
                   {priceCards.map((value, index) => {
                     return (
                       <>
-                        <div className="col-xl-4 col-sm-6 col-12">
+                        <div className="col-xl-4 col-sm-6 col-12" key={index}>
                           <div class="card text-center">
-                            <div class="card-header">{value.head}</div>
+                            <div class="card-header shadow-sm">
+                              {value.head}
+                            </div>
                             <div class="card-body">
-                              <p class="card-title">{value.text} </p>
+                              {index === 3 ? (
+                                <div className="card-link">{value.link} </div>
+                              ) : (
+                                <p class="card-title">{value.text}</p>
+                              )}
 
+                              <div className="card-price"> {value.price} </div>
                               <button className="btn btn-green ">
-                                Book now
+                                <Link to="/MemberDetail">{value.btn}</Link>
                               </button>
                             </div>
                           </div>

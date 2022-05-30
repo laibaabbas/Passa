@@ -1,0 +1,26 @@
+.form-contan .couple {
+  margin: 20px 0 25px 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+.form-contan .couple .c-title {
+  font-size: 16px;
+}
+.form-contan .couple .couple-btn {
+  border: 1px dashed #5eb432;
+  color: #5eb432;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.form-contan .goBack {
+  padding: 20px 0;
+  color: #cccccc;
+  font-size: 16px;
+}
+.form-contan .goBack a {
+  color: #cccccc;
+  margin-left: 5px;
+}

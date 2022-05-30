@@ -9,6 +9,8 @@ import AboutPaasa from "./components/About/AboutPaasa";
 import LogIn from "./components/JoinIn/Login";
 import SignUp from "./components/JoinIn/SignUp";
 import MembershipPlan from "./components/JoinIn/MembershipPlan";
+import MemberDetail from "./components/JoinIn/MemberDetail";
+import Payment from "./components/JoinIn/Payment";
 const App = () => {
   return (
     <>
@@ -19,6 +21,8 @@ const App = () => {
         <Route path="/LogIn" element={<LogIn />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/MembershipPlan" element={<MembershipPlan />} />
+        <Route path="/MemberDetail" element={<MemberDetail />} />
+        <Route path="/Payment" element={<Payment />} />
       </Routes>
       <Footer />
     </>

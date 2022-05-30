@@ -1,10 +1,9 @@
 .form-contan {
-  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  margin-top: 130px;
+  margin-top: 160px;
 }
 #logIn {
   width: 480px;

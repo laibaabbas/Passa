@@ -87,7 +87,7 @@ const NewEvents = () => {
           </div>
           <div className="card-slider-bg">
             <div className="blue-cut"></div>
-            <div className="card-slider">
+            <div className="card-slider ">
               <Slider {...settings}>
                 {cardDate.map((val, index) => {
                   return (
