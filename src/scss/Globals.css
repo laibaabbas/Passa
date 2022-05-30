@@ -78,6 +78,10 @@ img {
   background-color: #f3f3f3;
   color: #4a4a4a;
 }
+.green-text {
+  color: #5eb432;
+  font-weight: 600;
+}
 @media (max-width: 425px) {
   .btn-green {
     font-size: 18px;

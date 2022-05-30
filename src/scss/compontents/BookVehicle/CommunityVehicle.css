@@ -1,5 +1,5 @@
 .wt-bnr-inr {
-  padding-top: 90px;
+  padding-top: 30px;
 }
 .wt-bnr-inr .wt-title {
   color: #4a4a4a;
@@ -18,15 +18,16 @@
   border-radius: 25px;
 }
 .banner-image {
-  /* height: 535px; */
+  height: 550px;
   max-height: auto;
   width: 100%;
 }
-.page-contant .para {
+.para {
   color: #878787;
   font-family: "Open Sans", sans-serif;
   font-size: 22px;
-  line-height: 1.2;
+  line-height: 1.4;
+  padding: 15px 0;
 }
 .page-contant .pg-title {
   font-size: 38px;

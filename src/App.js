@@ -11,6 +11,7 @@ import SignUp from "./components/JoinIn/SignUp";
 import MembershipPlan from "./components/JoinIn/MembershipPlan";
 import MemberDetail from "./components/JoinIn/MemberDetail";
 import Payment from "./components/JoinIn/Payment";
+import ManagementCommittee from "./components/ManagementCommittee/ManagementCommittee";
 const App = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/MembershipPlan" element={<MembershipPlan />} />
         <Route path="/MemberDetail" element={<MemberDetail />} />
         <Route path="/Payment" element={<Payment />} />
+        <Route path="/ManagementCommittee" element={<ManagementCommittee />} />
       </Routes>
       <Footer />
     </>
