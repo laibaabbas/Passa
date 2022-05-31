@@ -5,6 +5,7 @@ import Footer from "./commonComponents/Footer";
 import Home from "./components/Home/Home";
 import CommunityVehicle from "./components/BookingVehicale/CommunityVehicle";
 import AboutPaasa from "./components/About/AboutPaasa";
+import CovidInfo from "./components/CovidInfo/CovidInfo";
 
 import LogIn from "./components/JoinIn/Login";
 import SignUp from "./components/JoinIn/SignUp";
@@ -19,6 +20,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/BookVehicle" element={<CommunityVehicle />} />
         <Route path="/AboutPaasa" element={<AboutPaasa />} />
+        <Route path="/Covid19Info" element={<CovidInfo />} />
         <Route path="/LogIn" element={<LogIn />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/MembershipPlan" element={<MembershipPlan />} />

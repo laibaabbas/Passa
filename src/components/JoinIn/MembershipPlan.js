@@ -38,8 +38,8 @@ const MembershipPlan = () => {
   return (
     <>
       <AppBar />
-      <section className="p-t80 membership-plan">
-        <div className="wt-bnr-inr  ">
+      <section className="p-t120 membership-plan">
+        <div className="wt-bnr-inr  p-t50">
           <div className="container-lg">
             <div className="banner-nav">
               <Link to="/SignUp"> Create account </Link>

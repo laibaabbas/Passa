@@ -8,7 +8,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogActions from "@mui/material/DialogActions";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -59,10 +59,10 @@ export default function CustomizedDialogs() {
   };
 
   return (
-    <div>
-      <Button variant="outlined" onClick={handleClickOpen}>
-        Open dialog
-      </Button>
+    <>
+      <button className="btn btn-green " onClick={handleClickOpen}>
+        $ Donate us
+      </button>
       <BootstrapDialog
         onClose={handleClose}
         aria-labelledby="customized-dialog-title"
@@ -71,32 +71,37 @@ export default function CustomizedDialogs() {
         <BootstrapDialogTitle
           id="customized-dialog-title"
           onClose={handleClose}
-        >
-          Modal title
-        </BootstrapDialogTitle>
-        <DialogContent dividers>
-          <Typography gutterBottom>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-            ac consectetur ac, vestibulum at eros.
-          </Typography>
-          <Typography gutterBottom>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-            auctor.
-          </Typography>
-          <Typography gutterBottom>
-            Aenean lacinia bibendum nulla sed consectetur. Praesent commodo
-            cursus magna, vel scelerisque nisl consectetur et. Donec sed odio
-            dui. Donec ullamcorper nulla non metus auctor fringilla.
-          </Typography>
-        </DialogContent>
-        <DialogActions>
-          <Button autoFocus onClick={handleClose}>
-            Save changes
-          </Button>
-        </DialogActions>
+        ></BootstrapDialogTitle>
+
+        <div className="long-form donation-dialog">
+          <div className="container-lg">
+            <div className="form-heading">
+              <h4>Donate us</h4>
+            </div>
+            <div className="para">
+              Lorem Ipsum is simply dummy text of the printing antypesetting
+              industry.
+            </div>
+            <form>
+              <div class="row">
+                <div className="col-lg-12">
+                  <input
+                    required
+                    type="text"
+                    class="form-control"
+                    id="inputamount"
+                    placeholder="Enter amount"
+                  />
+
+                  <button onClick={handleClose} className="btn btn-green ">
+                    Proceed to payment
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </BootstrapDialog>
-    </div>
+    </>
   );
 }

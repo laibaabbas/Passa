@@ -33,17 +33,17 @@ const UrduSchool = () => {
                   committee, please contact PAASA management committee.
                 </p>
               </div>
-              <div className="info-link">
-                <a href="/">
-                  See more information <ArrowForwardIcon />{" "}
-                </a>
-              </div>
             </div>
             <div className="col-xl-5">
               <div className="side-img">
-                <img src="./home/vaccine.png" alt="" />
+                <img className="rounded-img" src="./home/urdu2.jpeg" alt="" />
               </div>
             </div>
+          </div>
+          <div className="info-link">
+            <a href="/">
+              See more information <ArrowForwardIcon />{" "}
+            </a>
           </div>
         </div>
       </section>

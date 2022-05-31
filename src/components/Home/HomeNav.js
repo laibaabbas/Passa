@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import CustomizedDialogs from "../../commonComponents/DialogBox";
 const HomeNav = () => {
   function toggleSidenav() {
     document
@@ -66,7 +67,7 @@ const HomeNav = () => {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/">
+                      <Link className="nav-link" to="/Covid19Info">
                         COVID 19 info
                       </Link>
                     </li>
@@ -84,7 +85,8 @@ const HomeNav = () => {
                     Join Us
                   </Link>
 
-                  <button className="btn btn-green ">$ Donate us</button>
+                  {/* <button className="btn btn-green ">$ Donate us</button> */}
+                  <CustomizedDialogs />
                 </div>
               </div>
             </div>

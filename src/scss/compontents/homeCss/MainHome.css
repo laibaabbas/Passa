@@ -10,7 +10,7 @@
 .home-para {
   font-size: 22px;
   line-height: 1.7;
-  padding: 10px 0;
+  margin: 10px 0;
 }
 .info-link a {
   color: #5eb432;
@@ -61,4 +61,22 @@
   right: 0;
   top: 0;
   clip-path: polygon(84% 0, 100% 0%, 0 100%, 0 84%);
+}
+.side-img {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 100%;
+}
+.side-img img {
+  /* height: 450px; */
+  height: auto;
+  width: 420px;
+  margin: 20px auto;
+  /* box-shadow: 2px 3px 100px #878787, 2px 3px 20px gainsboro; */
+}
+.rounded-img {
+  border-radius: 40px;
+
+  box-shadow: 4px 5px 50px #ebebeb, 4px 5px 30px #ebebeb;
 }

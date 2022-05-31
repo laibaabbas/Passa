@@ -107,14 +107,3 @@
 
   transition: all ease 200ms;
 }
-.side-img {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  height: 100%;
-}
-.side-img img {
-  height: 450px;
-  width: 420px;
-  /* box-shadow: 2px 3px 100px #878787, 2px 3px 20px gainsboro; */
-}
