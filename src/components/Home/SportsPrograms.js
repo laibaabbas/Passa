@@ -5,7 +5,7 @@ const SportsPrograms = () => {
   return (
     <>
       <section>
-        <div className="container-lg m-t60">
+        <div className="container-lg m-tb40">
           <div className="row">
             <div className="col-lg-6">
               <div
@@ -17,7 +17,7 @@ const SportsPrograms = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="wt-bnr-inr">
+              <div className="wt-bnr-inr m-t50">
                 <div className="home-title-name p-tb10">
                   <h1 className="wt-title">Community Sports Programs</h1>
                 </div>

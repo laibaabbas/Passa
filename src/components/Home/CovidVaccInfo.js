@@ -20,7 +20,7 @@ const CovidVaccInfo = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
-              <div className="wt-bnr-inr">
+              <div className="wt-bnr-inr m-t50">
                 <div className="home-title-name p-tb10">
                   <h1 className="wt-title">COVID 19 Vaccinations info</h1>
                 </div>
