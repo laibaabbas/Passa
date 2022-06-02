@@ -1,11 +1,12 @@
 .sport-bg-img {
-  background-position: left;
+  background-position: 0px;
   background-repeat: no-repeat;
   background-size: 75% 90%;
   width: 100%;
   height: 100%;
   margin-top: 40px;
   position: relative;
+  left: 0;
 }
 .sport-bg-img .upper-left {
   position: absolute;
