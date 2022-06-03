@@ -56,6 +56,7 @@
 }
 .card-slider .card {
   width: 300px;
+  /* margin-left: 30px; */
   height: auto;
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -92,7 +93,7 @@
   font-weight: 700;
 }
 .card-slider .card .card-body {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 .card-slider .card .card-body .card-text {
   text-align: center;
@@ -105,7 +106,7 @@
   font-size: 14px;
   font-weight: 500;
   display: flex;
-  padding: 10px 0;
+  padding: 0px 0;
   align-content: center;
 }
 .card-slider .arrow {
@@ -126,5 +127,5 @@
 }
 .card-slider .css-i4bv87-MuiSvgIcon-root,
 .MuiSvgIcon-root {
-  font-size: 18px !important;
+  /* font-size: 18px !important; */
 }
