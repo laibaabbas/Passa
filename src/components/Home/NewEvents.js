@@ -81,7 +81,7 @@ const NewEvents = () => {
       <section>
         <div className="container-lg">
           <div className="wt-bnr-inr m-t120">
-            <div className="home-title-name p-tb10 left-green">
+            <div className="home-title-name p-t10 left-green">
               <h1 className="wt-title">Community News & Events</h1>
             </div>
           </div>
@@ -100,7 +100,7 @@ const NewEvents = () => {
                             <span className="month">{val.month} </span>
                             <span className="year">{val.year} </span>
                           </div>
-                          <h5 className="card-tille"> {val.title}</h5>
+                          <h6 className="card-tille"> {val.title}</h6>
                         </div>
                         <div class="card-body">
                           <p class="card-text">{val.para}</p>

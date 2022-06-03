@@ -6,7 +6,7 @@ const CommunityVehicle = () => {
   return (
     <>
       <AppBar />
-      <section className="p-t120 ">
+      <section className="p-t80 ">
         <div className="wt-bnr-inr  m-b40 p-t100">
           <div className="container-lg">
             <div className="banner-title-name p-tb20">

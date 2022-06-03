@@ -8,12 +8,12 @@ const WelcomToPaasa = () => {
       <section>
         <div className="container-lg">
           <div className="wt-bnr-inr">
-            <div className="home-title-name p-tb10">
+            <div className="home-title-name p-t10">
               <h1 className="wt-title">Welcome to PAASA</h1>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-7">
+            <div className="col-lg-8">
               <div className="home-para">
                 <p>
                   This was Dr Ashfaque Ahmed who came to Australia in 1962 in
@@ -36,7 +36,7 @@ const WelcomToPaasa = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-4">
               <div className="side-img">
                 <img src="./home/welcom3.avif" alt="" />
               </div>

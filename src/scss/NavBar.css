@@ -52,6 +52,7 @@
 }
 .header-style-3 .home-navlogo {
   margin-left: 40px;
+  padding: 15px;
 }
 .header-style-3 .home-navlogo::before {
   content: "";

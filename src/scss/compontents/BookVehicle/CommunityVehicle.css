@@ -11,7 +11,7 @@
   position: absolute;
   content: "";
   height: 6px;
-  width: 70px;
+  width: 65px;
   background-color: #5eb432;
   top: -24px;
   left: 0px;
@@ -25,9 +25,9 @@
 .para {
   color: #878787;
   font-family: "Open Sans", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.4;
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 .page-contant .pg-title {
   font-size: 38px;

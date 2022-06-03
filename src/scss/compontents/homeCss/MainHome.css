@@ -8,13 +8,13 @@
   font-weight: 700;
 }
 .home-para {
-  font-size: 22px;
-  line-height: 1.7;
-  margin: 10px 0;
+  font-size: 20px;
+  line-height: 1.6;
+  /* margin: 10px 0; */
 }
 .info-link a {
   color: #5eb432;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 700;
 }
 .info-link:hover {
@@ -73,8 +73,8 @@
   /* height: 450px; */
 
   height: auto;
-  width: 420px;
-  margin: 20px 0;
+  width: 90%;
+  /* margin: 20px 0; */
   justify-self: flex-end;
   /* box-shadow: 2px 3px 100px #878787, 2px 3px 20px gainsboro; */
 }

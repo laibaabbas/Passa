@@ -47,8 +47,8 @@ const StrategicObjective = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-7">
-              <div className="strt-list m-tb20">
+            <div className="col-lg-8">
+              <div className="strt-list">
                 {list.map((value, index) => {
                   return (
                     <div
@@ -81,7 +81,7 @@ const StrategicObjective = () => {
                 })}
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-4">
               <div className="side-img">
                 <img src="./home/StrategicObjectives.avif" alt="" />
               </div>

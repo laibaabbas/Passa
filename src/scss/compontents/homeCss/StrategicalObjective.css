@@ -3,7 +3,7 @@
 }
 .list-body {
   background-color: #f3f3f3;
-  padding: 40px;
+  padding: 35px;
   margin-bottom: 2px;
   transition: all ease;
 }
@@ -20,7 +20,7 @@
 }
 .list-body .list-heading {
   display: flex;
-  font-size: 22px;
+  font-size: 20px;
   justify-content: space-between;
 }
 .list-body .list-heading p {
@@ -33,10 +33,10 @@
 .list-body .list-heading .MuiSvgIcon-root {
   background-color: rgba(135, 135, 135, 0.2) !important;
   border-radius: 100%;
-  font-size: 20px !important;
+  font-size: 16px !important;
   color: #878787 !important;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 .color-body .list-heading .css-i4bv87-MuiSvgIcon-root,
 .color-body .list-heading .MuiSvgIcon-root {
