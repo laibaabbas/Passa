@@ -11,7 +11,7 @@
 .header-style-3 .main-bar {
   position: relative;
   width: 100%;
-  padding: 10px 0;
+  padding: 20px 0;
   /* padding: 20px 0px 20px 20px; */
   /* padding-top: 20px;
   padding-bottom: 20px; */
@@ -134,6 +134,8 @@
   /* margin: 0px 0px; */
   display: block;
   position: relative;
+
+  font-family: "Open Sans", sans-serif;
 }
 .header-style-3 .home-navbar .nav > li > a {
   color: #ffffff;
@@ -203,11 +205,14 @@
 }
 .header-style-3 .extra-nav .btn {
   margin-right: 15px;
-  padding: 10px 18px;
+  padding: 7px 15px;
+  font-size: 16px;
+
+  font-family: "Open Sans", sans-serif;
 }
 .header-style-3 .extra-nav .btn-green {
   margin-right: 20px;
-  padding: 11px 18px;
+  padding: 8px 15px;
 }
 .clearfix:after {
   content: "";
@@ -220,9 +225,7 @@
   content: "";
   display: table;
 }
-.header-style-3 .extra-nav .btn {
-  font-size: 18px;
-}
+
 @media (max-width: 1339px) {
   .header-style-3 .main-bar {
     padding: 10px 0;
