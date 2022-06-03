@@ -50,9 +50,9 @@
   margin-left: 0px;
   /* margin: 0 48px 0 0; */
 }
-/* .header-style-3 .home-navlogo {
-  margin-left: 20px;
-} */
+.header-style-3 .home-navlogo {
+  margin-left: 40px;
+}
 .header-style-3 .home-navlogo::before {
   content: "";
   position: absolute;
@@ -129,7 +129,7 @@
 .header-style-3 .header-nav .nav > li > a {
   color: #4a4a4a;
   font-size: 14px;
-  padding: 15px 14px;
+  padding: 10px 10px;
   cursor: pointer;
   /* margin: 0px 0px; */
   display: block;
