@@ -74,14 +74,14 @@
   background-color: #5eb432;
   color: #ffffff;
   flex-direction: column;
-  width: 32px;
-  padding-bottom: 4px;
+  width: 35px;
+  padding: 4px;
   text-align: center;
   border-radius: 2px;
   line-height: 1.4;
 }
 .card-slider .card .card-img-overlay .card-date .date {
-  font-size: 10px;
+  font-size: 12px;
 }
 .card-slider .card .card-img-overlay .card-date .month {
   font-size: 8px;
@@ -92,7 +92,8 @@
   font-weight: 500;
 }
 .card-slider .card .card-img-overlay .card-tille {
-  margin: 80px 10px;
+  margin: 90px 10px;
+
   color: #ffffff;
   font-weight: 700;
 }
@@ -104,7 +105,7 @@
   padding: 15px 10px;
   /* height: 158px; */
   font-size: 13px;
-  line-break: strict;
+  line-clamp: 6;
 }
 .card-slider .card .card-body .card-time {
   color: #5eb432;
