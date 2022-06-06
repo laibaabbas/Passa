@@ -1,6 +1,6 @@
 .side-image {
   background-position: 0% 30%;
-  background-size: 78%;
+  background-size: 80%;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -10,8 +10,8 @@
 .topLeft-img,
 .bottomRight-img {
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
 }
 .topLeft-img {
   top: 50px;

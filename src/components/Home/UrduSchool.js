@@ -12,7 +12,7 @@ const UrduSchool = () => {
             </div>
           </div>{" "}
           <div className="row">
-            <div className="col-xl-7">
+            <div className="col-xl-8">
               <div className="home-para">
                 <p>
                   Ethnic School Association of SA runs Language and Culture
@@ -34,7 +34,7 @@ const UrduSchool = () => {
                 </p>
               </div>
             </div>
-            <div className="col-xl-5">
+            <div className="col-xl-4">
               <div className="side-img">
                 <img className="rounded-img" src="./home/urdu2.jpeg" alt="" />
               </div>
