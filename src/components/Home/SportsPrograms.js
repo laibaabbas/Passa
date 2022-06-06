@@ -19,7 +19,7 @@ const SportsPrograms = () => {
             <div className="col-lg-6">
               <div className="wt-bnr-inr m-t50">
                 <div className="home-title-name p-tb10">
-                  <h2 className="wt-title">Community Sports Programs</h2>
+                  <h1 className="wt-title">Community Sports Programs</h1>
                 </div>
               </div>
               <div className="home-para">

@@ -96,7 +96,7 @@ const NewEvents = () => {
                         <img src={val.img} class="card-img-top" alt={index} />
                         <div class="card-img-overlay ">
                           <div className="card-date">
-                            <b>13</b>
+                            <b className="date">13</b>
                             <span className="month">{val.month} </span>
                             <span className="year">{val.year} </span>
                           </div>

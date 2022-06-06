@@ -6,6 +6,7 @@
   position: relative;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
+  font-size: 2.2rem;
 }
 .wt-bnr-inr .wt-title::after {
   position: absolute;
@@ -25,40 +26,42 @@
 .para {
   color: #878787;
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4;
   /* padding: 15px 0; */
 }
 .page-contant .pg-title {
-  font-size: 38px;
+  font-size: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .card {
-  height: 420px;
+  height: 360px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .page-contant .card .card-img-top {
-  padding: 8px;
+  padding: 6px;
   border-radius: 11px;
   height: 250px;
 }
 .page-contant .card .card-img-top {
-  height: 250px;
+  height: 200px;
 }
 .card .card-title {
-  padding-bottom: 40px;
-  font-size: 14px;
+  padding-bottom: 38px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7;
 }
 
 .card .card-body {
-  padding: 20px 15px 40px 16px;
+  padding: 18px 12px 35px 12px;
 }
 .card button {
   width: 85%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
   background-color: #5eb432 !important;
