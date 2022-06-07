@@ -17,7 +17,7 @@ const Payment = () => {
       <>
         <AppBar />
         <section className="p-t120 membership-plan payment">
-          <div className="wt-bnr-inr  p-t50">
+          <div className="wt-bnr-inr  p-t20">
             <div className="container-lg">
               <div className="banner-nav">
                 <Link to="/SignUp"> Create account </Link>

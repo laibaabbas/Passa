@@ -1,6 +1,6 @@
 .payment-card .card {
-  width: 370px;
-  height: 480px;
+  width: 320px;
+  height: 420px;
   margin: 50px auto 20px auto;
 }
 .payment-card .card .card-header {
@@ -22,7 +22,7 @@
   justify-content: center;
 }
 .payment .change-package a {
-  font-size: 24px;
+  font-size: 20px;
   color: #9d9d9d;
   font-weight: 500;
 }
@@ -33,22 +33,22 @@
   align-items: center;
 }
 .payment-form {
-  width: 470px;
-  padding: 0 0 0 30px;
+  width: 390px;
+  padding: 0;
 }
 .payment-form .form-heading {
   text-align: left;
-  margin: 0 0 40px 0;
+  margin: 0 0 30px 0;
 }
 .payment-form .paypal-img {
-  width: 100px;
+  width: 80px;
 }
 .payment-form .form-check {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .payment-form .credit-card {
   background-image: url("../../../../public/JoinIn/credit.svg");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
-  background-size: 65px;
+  background-size: 50px;
 }

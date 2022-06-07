@@ -39,7 +39,7 @@ const StrategicObjective = () => {
   const [CurrIndex, setCurrIndex] = useState("0");
   return (
     <>
-      <section>
+      <section className="m-t120">
         <div className="container-lg">
           <div className="wt-bnr-inr m-t60">
             <div className="home-title-name p-tb10">

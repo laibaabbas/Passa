@@ -19,7 +19,7 @@
   border-radius: 25px;
 }
 .banner-image {
-  height: 550px;
+  height: 480px;
   max-height: auto;
   width: 100%;
 }
@@ -27,7 +27,7 @@
   color: #878787;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.5;
   /* padding: 15px 0; */
 }
 .page-contant .pg-title {

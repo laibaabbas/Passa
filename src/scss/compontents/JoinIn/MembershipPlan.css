@@ -1,7 +1,7 @@
 .membership-plan .banner-nav a,
 .membership-plan .banner-nav i {
   color: #cccccc;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 .membership-plan .banner-nav i {
@@ -9,22 +9,22 @@
 }
 .membership-plan .banner-nav .green-text {
   color: #5eb432;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 .membership-plan .banner-nav a:hover {
   color: #5eb432;
 }
 .membership-cards .card {
-  width: 367px;
-  height: 580px;
+  width: 320px;
+  height: 510px;
   border-radius: 5px;
   background-color: #f3f3f3;
   border: none;
 }
 .membership-cards .card .card-header {
-  padding: 24px 0;
-  font-size: 30px;
+  padding: 22px 0;
+  font-size: 25px;
   font-weight: 600;
   background-color: #245576;
   color: #ffffff;
@@ -40,21 +40,22 @@
   align-items: center;
 }
 .membership-cards .card .card-body .card-title {
-  font-size: 30px;
+  font-size: 26px;
   color: #cccccc;
   padding: 40px 30px 0 30px;
   font-family: "Open Sans", sans-serif;
 }
 .membership-cards .card .card-body .card-link {
-  font-size: 18px;
+  font-size: 16px;
   color: #cccccc;
-  margin: 45px 30px 0 30px;
+  margin: 45px 10px 0 10px;
   font-family: "Open Sans", sans-serif;
 }
 .membership-cards .card .card-body .card-price {
   color: #4a4a4a;
-  font-size: 75px;
+  font-size: 70px;
   font-weight: 600;
+  font-family: "Open Sans", sans-serif;
 }
 .membership-cards .card .card-body button {
   justify-self: flex-end;

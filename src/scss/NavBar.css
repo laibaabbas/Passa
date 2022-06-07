@@ -178,8 +178,8 @@
   background-color: #5eb432;
   transition: all 0.5s ease;
   position: absolute;
-  left: 15px;
-  bottom: 10px;
+  left: 10px;
+  bottom: 0px;
   border-radius: 15px;
 }
 .header-style-3 .home-navbar .nav > li:hover > a::after,
@@ -229,7 +229,7 @@
 
 @media (max-width: 1339px) {
   .header-style-3 .main-bar {
-    padding: 10px 0;
+    padding: 15px 0 15px 0;
   }
   /* .header-style-3 .logo-header {
     margin: 0;

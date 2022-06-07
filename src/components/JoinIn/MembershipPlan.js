@@ -38,8 +38,8 @@ const MembershipPlan = () => {
   return (
     <>
       <AppBar />
-      <section className="p-t120 membership-plan">
-        <div className="wt-bnr-inr  p-t50">
+      <section className="p-t100 membership-plan">
+        <div className="wt-bnr-inr  p-t60">
           <div className="container-lg">
             <div className="banner-nav">
               <Link to="/SignUp"> Create account </Link>
@@ -64,7 +64,7 @@ const MembershipPlan = () => {
             </div>
           </div>
         </div>
-        <div className="wt-bnr-inr  ">
+        <div className="wt-bnr-inr m-t60 ">
           <div className="container-lg">
             <div className="banner-title-name">
               <h1 className="wt-title">Membership Type</h1>
@@ -83,7 +83,7 @@ const MembershipPlan = () => {
             </div>
           </div>
         </div>
-        <div className="wt-bnr-inr  ">
+        <div className="wt-bnr-inr  m-t60">
           <div className="container-lg">
             <div className="banner-title-name">
               <h1 className="wt-title">Chose membership plan</h1>

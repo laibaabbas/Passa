@@ -32,9 +32,8 @@ h4 {
 }
 .long-form button {
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 18px !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .btn-green a {
   color: #ffffff;

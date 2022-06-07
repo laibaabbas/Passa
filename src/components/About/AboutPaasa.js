@@ -37,7 +37,7 @@ const AboutPaasa = () => {
     <>
       <AppBar />
       <section className="p-t120 ">
-        <div className="wt-bnr-inr m-b20  p-t100">
+        <div className="wt-bnr-inr m-b20  p-t80">
           <div className="container-lg">
             <div className="banner-title-name p-tb20">
               <h1 className="wt-title">About PAASA</h1>
@@ -101,7 +101,7 @@ const AboutPaasa = () => {
               </div>
             </div>{" "}
             <div className="row">
-              <div className="col-xl-7">
+              <div className="col-sm-7">
                 <div className="para">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -125,9 +125,13 @@ const AboutPaasa = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-5">
+              <div className="col-sm-5">
                 <div className="side-img">
-                  <img src="./about/about-img1.avif" alt="" />
+                  <img
+                    src="./about/about-img1.avif"
+                    className="rounded"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -139,7 +143,7 @@ const AboutPaasa = () => {
               </div>
             </div>{" "}
             <div className="row">
-              <div className="col-xl-7">
+              <div className="col-sm-7">
                 <div className="para">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -174,9 +178,13 @@ const AboutPaasa = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-5">
+              <div className="col-sm-5">
                 <div className="side-img">
-                  <img src="./about/about-img2.avif" alt="" />
+                  <img
+                    src="./about/about-img2.avif"
+                    className="rounded"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -188,7 +196,7 @@ const AboutPaasa = () => {
               </div>
             </div>{" "}
             <div className="row">
-              <div className="col-xl-12">
+              <div className="col-sm-12">
                 <div className="para">
                   <div className="about-StatObj">
                     {StateObj.map((val, index) => {
