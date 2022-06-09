@@ -79,6 +79,8 @@
   text-align: center;
   border-radius: 2px;
   line-height: 1.4;
+
+  font-family: "Open Sans", sans-serif;
 }
 .card-slider .card .card-img-overlay .card-date .date {
   font-size: 12px;

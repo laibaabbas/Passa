@@ -191,8 +191,8 @@
   background-color: #ffffff;
   transition: all 0.8s ease;
   position: absolute;
-  left: 15px;
-  bottom: 10px;
+  left: 10px;
+  bottom: 0px;
   border-radius: 15px;
 }
 

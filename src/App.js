@@ -13,6 +13,7 @@ import MembershipPlan from "./components/JoinIn/MembershipPlan";
 import MemberDetail from "./components/JoinIn/MemberDetail";
 import Payment from "./components/JoinIn/Payment";
 import ManagementCommittee from "./components/ManagementCommittee/ManagementCommittee";
+import NewsEvent from "./components/NewsAndEvents/NewsEvent";
 const App = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/BookVehicle" element={<CommunityVehicle />} />
         <Route path="/AboutPaasa" element={<AboutPaasa />} />
+        <Route path="/NewsAndEvents" element={<NewsEvent />} />
         <Route path="/Covid19Info" element={<CovidInfo />} />
         <Route path="/LogIn" element={<LogIn />} />
         <Route path="/SignUp" element={<SignUp />} />

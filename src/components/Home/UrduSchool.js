@@ -12,8 +12,8 @@ const UrduSchool = () => {
             </div>
           </div>{" "}
           <div className="row">
-            <div className="col-xl-8">
-              <div className="home-para">
+            <div className="col-md-8">
+              <div className="home-para ">
                 <p>
                   Ethnic School Association of SA runs Language and Culture
                   Schools in South Australia under the governance of Department
@@ -34,9 +34,13 @@ const UrduSchool = () => {
                 </p>
               </div>
             </div>
-            <div className="col-xl-4">
+            <div className="col-md-4">
               <div className="side-img">
-                <img className="rounded-img" src="./home/urdu2.jpeg" alt="" />
+                <img
+                  className="rounded-img m-t20"
+                  src="./home/urdu2.jpeg"
+                  alt=""
+                />
               </div>
             </div>
           </div>

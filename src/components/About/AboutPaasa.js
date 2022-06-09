@@ -102,7 +102,7 @@ const AboutPaasa = () => {
             </div>{" "}
             <div className="row">
               <div className="col-sm-7">
-                <div className="para">
+                <div className="para m-r30">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's

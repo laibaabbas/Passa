@@ -31,7 +31,7 @@
 .clippy {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 370px;
   width: 100%;
 }
 .clippy .green-clip {
@@ -74,7 +74,7 @@
 
   height: auto;
   width: 90%;
-  /* margin: 20px 0; */
+  /* margin: 15px 0; */
   justify-self: flex-end;
   /* box-shadow: 2px 3px 100px #878787, 2px 3px 20px gainsboro; */
 }

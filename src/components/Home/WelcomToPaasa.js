@@ -38,7 +38,7 @@ const WelcomToPaasa = () => {
             </div>
             <div className="col-lg-4">
               <div className="side-img">
-                <img src="./home/welcom3.avif" alt="" />
+                <img src="./home/welcom3.avif" className="m-tb20" alt="" />
               </div>
             </div>
           </div>

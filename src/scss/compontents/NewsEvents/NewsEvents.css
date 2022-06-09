@@ -1,0 +1,27 @@
+.event-overlay {
+  position: relative;
+}
+.event-overlay .event-date {
+  position: absolute;
+  top: 0;
+  margin: 30px;
+  padding: 8px;
+  display: flex;
+  background-color: #5eb432;
+  color: #ffffff;
+  flex-direction: column;
+  width: 60px;
+  text-align: center;
+  border-radius: 2px;
+  line-height: 1.4;
+
+  font-family: "Open Sans", sans-serif;
+}
+.event-date .event-date .date {
+  font-size: 12px;
+}
+.event-date .event-date .month {
+  font-size: 10px;
+  font-weight: 200;
+  
+}

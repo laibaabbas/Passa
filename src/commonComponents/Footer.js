@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -58,7 +59,7 @@ const Footer = () => {
                         <a href="/">About PASSA</a>
                       </li>
                       <li>
-                        <a href="/">News and Events</a>
+                        <Link to="/NewsAndEvents">News and Events</Link>
                       </li>
                       <li>
                         <a href="/">COVID 19 Ifo</a>
