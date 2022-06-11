@@ -1,11 +1,13 @@
 .signUp {
-  width: 850px;
+  width: 855px;
   padding-left: 50px;
   padding-right: 50px;
 }
-.signUp .SignUpAs {
+.signUp .SignUpAs,
+.long-form .SignUpAs {
   font-size: 16px;
   font-weight: 600;
+  color: #4a4a4a;
 }
 .signUp .form-heading {
   padding: 30px 0 0px 0;
@@ -13,19 +15,23 @@
 .signUp .form-heading h4 {
   font-size: 30px;
 }
-.signUp .form-check {
+.signUp .form-check-inline,
+.long-form .form-check-inline {
   display: inline-block;
   padding-left: 0;
   padding-right: 20px;
   font-size: 14px;
   margin: 15px 0 20px 0;
 }
-.signUp .form-check input[Type="radio"] {
+.signUp .form-check-inline input[Type="radio"],
+.long-form .form-check-inline input[Type="radio"] {
   position: absolute;
   opacity: 0;
 }
-.signUp .form-check input[type="radio"]:checked + label,
-.signUp .form-check input[type="radio"]:not(:checked) + label {
+.signUp .form-check-inline input[type="radio"]:checked + label,
+.signUp .form-check-inline input[type="radio"]:not(:checked) + label,
+.long-form .form-check-inline input[type="radio"]:checked + label,
+.long-form .form-check-inline input[type="radio"]:not(:checked) + label {
   position: relative;
   padding-left: 28px;
   cursor: pointer;
@@ -33,7 +39,8 @@
   display: inline-block;
   color: #4a4a4a;
 }
-.signUp .form-check input[Type="radio"] + .radio-label::before {
+.signUp .form-check-inline input[Type="radio"] + .radio-label::before,
+.long-form .form-check-inline input[Type="radio"] + .radio-label::before {
   content: "";
   position: absolute;
   left: 0;
@@ -44,7 +51,8 @@
   border-radius: 100%;
   background: #fff;
 }
-.signUp .form-check input[type="radio"]:not(:checked) + label:after {
+.signUp .form-check-inline input[type="radio"]:not(:checked) + label:after,
+.long-form .form-check-inline input[type="radio"]:not(:checked) + label:after {
   content: "";
   width: 12px;
   height: 12px;
@@ -58,7 +66,8 @@
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.signUp .form-check input[type="radio"]:checked + label:after {
+.signUp .form-check-inline input[type="radio"]:checked + label:after,
+.long-form .form-check-inline input[type="radio"]:checked + label:after {
   content: "";
   width: 12px;
   height: 12px;

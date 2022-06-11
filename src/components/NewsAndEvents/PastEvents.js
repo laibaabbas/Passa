@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const cardDate = [
   {
-    img: "./home/slider-card.png",
+    img: "./NewsAndEvents/card-bg.jpeg",
     date: "13",
     month: "AUG",
     year: "2022",
@@ -14,7 +14,7 @@ const cardDate = [
     timing: "August 28, 2021 @ 4:00 pm - 10:00 pm",
   },
   {
-    img: "./home/slider-card.png",
+    img: "./NewsAndEvents/card-bg.jpeg",
     date: "13",
     month: "AUG",
     year: "2022",
@@ -23,7 +23,7 @@ const cardDate = [
     timing: "August 28, 2021 @ 4:00 pm - 10:00 pm",
   },
   {
-    img: "./home/slider-card.png",
+    img: "./NewsAndEvents/card-bg.jpeg",
     date: "13",
     month: "AUG",
     year: "2022",
@@ -32,7 +32,7 @@ const cardDate = [
     timing: "August 28, 2021 @ 4:00 pm - 10:00 pm",
   },
   {
-    img: "./home/slider-card.png",
+    img: "./NewsAndEvents/card-bg.jpeg",
     date: "13",
     month: "AUG",
     year: "2022",
@@ -41,7 +41,7 @@ const cardDate = [
     timing: "August 28, 2021 @ 4:00 pm - 10:00 pm",
   },
   {
-    img: "./home/slider-card.png",
+    img: "./NewsAndEvents/card-bg.jpeg",
     date: "13",
     month: "AUG",
     year: "2022",
@@ -50,7 +50,7 @@ const cardDate = [
     timing: "August 28, 2021 @ 4:00 pm - 10:00 pm",
   },
 ];
-const NewEvents = () => {
+const PastEvents = () => {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow arrow-next" onClick={onClick}>
@@ -78,48 +78,45 @@ const NewEvents = () => {
   };
   return (
     <>
-      <section>
-        <div className="container-lg">
-          <div className="wt-bnr-inr m-t120">
-            <div className="home-title-name p-t10 left-green">
-              <h1 className="wt-title">Community News & Events</h1>
-            </div>
-          </div>
-          <div className="card-slider-bg">
-            <div className="blue-cut"></div>
-            <div className="card-slider ">
-              <Slider {...settings}>
-                {cardDate.map((val, index) => {
-                  return (
-                    <>
-                      <div class="card">
-                        <img src={val.img} class="card-img-top" alt={index} />
-                        <div class="card-img-overlay ">
-                          <div className="card-date">
-                            <span className="date">13</span>
-                            <span className="month">{val.month} </span>
-                            <span className="year">{val.year} </span>
-                          </div>
-                          <h6 className="card-tille"> {val.title}</h6>
-                        </div>
-                        <div class="card-body">
-                          <p class="card-text text-center">{val.para}</p>
-                          <hr />
-                          <a href="/" class="card-time">
-                            {val.timing}
-                          </a>
-                        </div>
-                      </div>
-                    </>
-                  );
-                })}
-              </Slider>
-            </div>
+      <div className="container-lg">
+        <div className="wt-bnr-inr ">
+          <div className="banner-title-name p-t10 ">
+            <h2 className="wt-title">Past Events</h2>
           </div>
         </div>
-      </section>
+        <div className=" event-card-bg">
+          {/* <div className="blue-cut"></div> */}
+          <div className="card-slider ">
+            <Slider {...settings}>
+              {cardDate.map((val, index) => {
+                return (
+                  <>
+                    <div class="card">
+                      <img src={val.img} class="card-img-top" alt={index} />
+                      <div class="card-img-overlay ">
+                        <div className="card-date">
+                          <span className="date">13</span>
+                          <span className="month">{val.month} </span>
+                          <span className="year">{val.year} </span>
+                        </div>
+                        <h6 className="card-tille"> {val.title}</h6>
+                      </div>
+                      <div class="card-body event-cBody ">
+                        <p class="card-text event-text text-left">{val.para}</p>
+                        <a href="/" class="card-time">
+                          {val.timing}
+                        </a>
+                      </div>
+                    </div>
+                  </>
+                );
+              })}
+            </Slider>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
 
-export default NewEvents;
+export default PastEvents;

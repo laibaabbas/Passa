@@ -35,17 +35,17 @@ const WelcomToPaasa = () => {
                   in SA.
                 </p>
               </div>
+              <div className="info-link">
+                <a href="/">
+                  See more information <ArrowForwardIcon />
+                </a>
+              </div>
             </div>
             <div className="col-lg-4">
               <div className="side-img">
                 <img src="./home/welcom3.avif" className="m-tb20" alt="" />
               </div>
             </div>
-          </div>
-          <div className="info-link">
-            <a href="/">
-              See more information <ArrowForwardIcon />
-            </a>
           </div>
         </div>
         <div className="clippy">

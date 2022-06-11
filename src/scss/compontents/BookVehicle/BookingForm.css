@@ -42,7 +42,6 @@ h4 {
   margin: 20px auto;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .long-form .form-check .form-check-input[type="checkbox"] {
   margin-top: 0;

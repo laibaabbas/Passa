@@ -137,7 +137,7 @@ const VehicleCards = () => {
                           Book now
                         </button>
                       </DialogActions>
-                      <div class="form-check">
+                      <div class="form-check d-flex justify-content-center">
                         <input
                           class="form-check-input"
                           type="checkbox"

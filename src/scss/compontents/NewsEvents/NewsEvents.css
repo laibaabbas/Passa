@@ -5,7 +5,7 @@
   position: absolute;
   top: 0;
   margin: 30px;
-  padding: 8px;
+  padding: 6px 8px 8px 8px;
   display: flex;
   background-color: #5eb432;
   color: #ffffff;
@@ -17,11 +17,82 @@
 
   font-family: "Open Sans", sans-serif;
 }
-.event-date .event-date .date {
+.event-date .date {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.event-date .month {
+  font-size: 12px;
+  font-weight: 200;
+}
+.event-date .year {
+  font-size: 12px;
+  font-weight: 600;
+}
+.ticket-det {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+}
+.ticket-det .pricePerPersone {
+  margin: 20px 0 30px 0;
+  align-self: center;
+  font-family: "Open Sans", sans-serif;
+}
+.ticket-det .pricePerPersone .price {
+  font-size: 40px;
+  color: #5eb432;
+}
+.ticket-det .pricePerPersone .per {
+  color: #9d9d9d;
   font-size: 12px;
 }
-.event-date .event-date .month {
-  font-size: 10px;
-  font-weight: 200;
-  
+.ticket-det .res-ticket {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px;
+}
+.ticket-det .ava-ticket {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #9d9d9d;
+  margin: 10px 0;
+  text-align: center;
+}
+.show-time {
+  font-size: 20px;
+  font-weight: 700 !important;
+}
+.event-card-bg {
+  width: 100%;
+  height: 60vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  position: relative;
+}
+.event-card-bg::before {
+  content: "2022";
+  position: absolute;
+  transform: rotate(270deg);
+  color: #4a4a4a;
+  font-size: 70px;
+  bottom: 12%;
+  left: 0px;
+  opacity: 0.1;
+  margin-left: -40px;
+  font-weight: 900;
+  z-index: 2;
+}
+.card-slider .card .event-cBody {
+  padding: 10px 15px;
+}
+.card-slider .card .card-body .event-text {
+  padding: 0;
+  color: #4a4a4a;
+}
+.card-slider .card .event-cBody .card-time {
+  padding: 8px 0px;
+  font-weight: 700;
 }
