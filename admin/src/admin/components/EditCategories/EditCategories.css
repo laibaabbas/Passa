@@ -1,0 +1,19 @@
+.edit_categories_modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(197, 195, 195, 0.286);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+.edit_categories_box {
+  min-width: 400px;
+  min-height: 200px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+}

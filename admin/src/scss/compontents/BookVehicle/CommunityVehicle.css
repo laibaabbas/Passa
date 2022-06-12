@@ -1,0 +1,96 @@
+.wt-bnr-inr {
+  padding-top: 90px;
+}
+.wt-bnr-inr .wt-title {
+  color: #4a4a4a;
+  position: relative;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.wt-bnr-inr .wt-title::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 70px;
+  background-color: #5eb432;
+  top: -24px;
+  left: 0px;
+  border-radius: 25px;
+}
+.banner-image {
+  /* height: 535px; */
+  max-height: auto;
+  width: 100%;
+}
+.page-contant .para {
+  color: #878787;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.page-contant .pg-title {
+  font-size: 38px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card {
+  height: 420px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card .card-img-top {
+  padding: 8px;
+  border-radius: 11px;
+}
+.card .card-title {
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+
+.card .card-body {
+  padding: 20px 15px 40px 16px;
+}
+.card button {
+  width: 85%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  background-color: #5eb432 !important;
+  color: #ffffff !important;
+  font-style: "Open Sans", sans-serif !important ;
+}
+@media (max-width: 1199px) {
+  .card {
+    height: auto;
+  }
+}
+@media (max-width: 767px) {
+  .page-contant .para {
+    font-size: 14px;
+  }
+  .page-contant .pg-title {
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+  .wt-bnr-inr {
+    padding-top: 50px;
+  }
+
+  .card button {
+    font-size: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .wt-bnr-inr {
+    padding-top: 30px;
+  }
+  .page-contant .pg-title {
+    font-size: 26px;
+  }
+  .wt-bnr-inr .wt-title::after {
+    height: 5px;
+    top: -10px;
+  }
+}

@@ -1,0 +1,21 @@
+.inline-input-container{
+    display: flex;
+    justify-content: space-between;
+}
+.inline-input-container>div{
+text-align: start;
+width: 50%;
+display: flex;
+}
+
+.vehicle-parts-img-text-container{
+    text-align: center;
+}
+
+.vehicle-parts-img-text{
+    color: #908d8d;
+    font-weight: 500;
+}
+.upload-img-container>*{
+margin-right: 1%;
+}

@@ -1,0 +1,97 @@
+.booking-charges {
+  padding: 0 30px 0px 30px;
+  width: 400px;
+}
+.charges {
+  padding: 20px 0;
+}
+.charges .chr-deital {
+  text-align: left;
+}
+.charges .chr-price {
+  text-align: right;
+}
+.charges .det-long {
+  font-size: 12px;
+}
+.charges .total-chr {
+  font-size: 16px;
+}
+.charges .total-price {
+  font-size: 18px;
+  text-align: right;
+  color: #5eb432;
+  font-weight: 500;
+}
+.booking-charges .pay-btn {
+  padding: 10px 0;
+  width: 100%;
+}
+.cnl-contain {
+  padding: 0 30px 20px 30px;
+}
+.cancel-btn {
+  margin: 10px auto;
+  padding: 10px 0;
+  width: 100%;
+  color: #4a4a4a;
+  border: 1px solid #707070;
+  font-family: "Open Sans", sans-serif;
+}
+@media (max-width: 575px) {
+  .booking-charges {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .charges {
+    padding: 5px 0;
+  }
+  .charges .chr-deital,
+  .charges .chr-price {
+    font-size: 12px;
+  }
+  .charges .det-long {
+    font-size: 10px;
+  }
+  .charges .total-chr {
+    font-size: 14px;
+  }
+  .charges p {
+    margin-bottom: 5px;
+  }
+  .charges .total-price {
+    font-size: 14px;
+  }
+  .booking-charges .pay-btn,
+  .cancel-btn {
+    font-size: 14px !important;
+  }
+  .cancel-btn {
+    margin: 5px 0 0 0;
+  }
+  .cnl-contain {
+    padding: 0 15px 20px 15px;
+  }
+}
+
+@media (max-width: 332px) {
+  .booking-charges {
+    padding: 0;
+  }
+  .chr-heading {
+    font-size: 12px;
+  }
+  .cnl-contain {
+    padding: 0 0px 20px;
+  }
+  .booking-charges .pay-btn,
+  .cancel-btn {
+    font-size: 12px !important;
+  }
+  .charges .total-price {
+    font-size: 13px;
+  }
+  .booking-charges hr {
+    margin: 10px 0;
+  }
+}

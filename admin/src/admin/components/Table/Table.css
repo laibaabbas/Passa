@@ -1,0 +1,19 @@
+.cst_edit_icon {
+  color: green !important;
+  cursor: pointer;
+}
+.cst_delete_icon {
+  color: red !important;
+  cursor: pointer;
+}
+.cst_delete_icon {
+  width: 75px !important;
+}
+.css-i4bv87-MuiSvgIcon-root,
+.MuiSvgIcon-root {
+  font-size: 20px !important;
+}
+.tble_deleting_text {
+  font-size: 13px;
+  color: grey;
+}

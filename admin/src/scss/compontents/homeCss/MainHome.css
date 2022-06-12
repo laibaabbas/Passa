@@ -1,0 +1,26 @@
+@import "./Header.css";
+
+.home-title-name .wt-title {
+  font-weight: 700;
+}
+.home-para {
+  font-size: 21px;
+  line-height: 1.7;
+  padding: 10px 0;
+}
+.info-link a {
+  color: #5eb432;
+  font-size: 21px;
+  font-weight: 700;
+}
+.info-link:hover {
+  color: #5eb432;
+  text-decoration: underline;
+}
+.info-link .fa-arrow-right {
+  margin-left: 20px;
+  font: lighter;
+}
+.info-link .fa-arrow-right::before {
+  font-weight: 300;
+}

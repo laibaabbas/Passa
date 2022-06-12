@@ -1,0 +1,190 @@
+.long-form {
+  width: 800px;
+  padding: 0px 40px 40px 40px;
+}
+.long-form .form-heading {
+  text-align: center;
+  padding-bottom: 10px;
+}
+h4 {
+  font-weight: 600;
+  color: #245576;
+  font-family: "Lato", sans-serif;
+}
+
+.long-form .form-control {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  /* margin: 20px 20px 30px 20px; */
+  /* width: 95%; */
+  border: 0;
+  background-color: #f3f3f3;
+  font-size: 14px;
+}
+.long-form .form-control:focus {
+  box-shadow: -1px 1px 3px #245576;
+}
+.css-153eyq5-MuiModal-root-MuiDialog-root,
+.css-14b29qc,
+.MuiDialogActions-root {
+  padding: 0px !important;
+}
+.long-form button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px !important;
+}
+.long-form .form-check {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.long-form .form-check .form-check-input {
+  margin-top: 0;
+  border-radius: 0;
+  margin-right: 10px;
+}
+.form-check-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.form-check-input:checked {
+  background-color: #5eb432;
+  border-color: #5eb432;
+}
+.form-check-label a:hover {
+  color: #5eb432;
+  text-decoration: underline;
+}
+.long-form .form-select {
+  background-image: url("../../../../public/vehicles/Path25.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 12px 10px;
+}
+.form-select option {
+  padding-left: 0px;
+}
+
+/* input[type="date" i]::after {
+  content: "";
+  background-image: url("../../../public/vehicles/Path37.png");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  z-index: 2;
+  position: absolute;
+}
+.date-form::after {
+  content: "";
+  background-image: url("../../../public/vehicles/Path37.png");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  z-index: 2;
+  position: absolute;
+} */
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper,
+.css-uhb5lp,
+.MuiDialog-paper {
+  max-width: 980px !important;
+  /* width: none; */
+  /* max-width: calc(100% - 65px) !important; */
+}
+.css-qsfli3-MuiButtonBase-root-MuiIconButton-root,
+.MuiIconButton-root {
+  font-size: 8px !important;
+  background-color: #9d9d9d !important;
+  color: #f3f3f3 !important;
+  padding: 4px !important;
+}
+.css-i4bv87-MuiSvgIcon-root,
+.MuiSvgIcon-root {
+  font-size: 14px !important;
+}
+/* 
+.css-lc2yqr-MuiButtonBase-root-MuiIconButton-root {
+  background-color: #9d9d9d !important;
+} */
+@media (max-width: 1135px) {
+  .long-form {
+    width: 780px;
+    padding: 0px 30px 20px 30px;
+  }
+}
+@media (max-width: 845px) {
+  .long-form {
+    width: 580px;
+  }
+  .long-form .form-control {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 845px) {
+  .long-form {
+    width: 400px;
+  }
+}
+@media (max-width: 587px) {
+  .long-form {
+    width: 350px;
+  }
+  .long-form .form-control,
+  .long-form .form-select {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .long-form {
+    width: 300px;
+    padding: 0px 10px 15px 10px;
+  }
+  .css-i4bv87-MuiSvgIcon-root,
+  .MuiSvgIcon-root {
+    font-size: 10px !important;
+  }
+  .long-form .form-control,
+  .long-form .form-select {
+    width: 100%;
+    height: 40px;
+    font-size: 10px;
+  }
+  .long-form button {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 375px) {
+  .long-form {
+    width: 100%;
+    padding: 0px 5px 10px 5px;
+  }
+  .long-form .form-control,
+  .long-form .form-select {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: none;
+  }
+  .form-check-label {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .long-form .form-control,
+  .long-form .form-select {
+    width: 100%;
+    height: 32px;
+    padding-left: 10px;
+    font-size: 10px;
+  }
+  .form-check-label {
+    font-size: 12px;
+  }
+  .long-form .form-select {
+    padding-top: 5px;
+    background-size: 10px 5px;
+  }
+}

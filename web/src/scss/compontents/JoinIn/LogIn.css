@@ -1,0 +1,57 @@
+.form-contan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 160px;
+}
+#logIn {
+  width: 480px;
+}
+.logIn-form {
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 2px 3px 50px #f1f1f1, 2px 3px 30px #f1f1f1;
+}
+.logIn-form .form-heading {
+  padding: 35px 0 30px 0;
+}
+.logIn-form .form-heading h4 {
+  font-size: 26px;
+}
+.logIn-form .close-icon {
+  text-align: end;
+}
+.logIn-form .forget-password {
+  text-align: end;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.logIn-form .forget-password:hover {
+  color: #5eb432;
+}
+.logIn-form .member {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.logIn-form .member a {
+  color: #5eb432;
+}
+.logIn-form .member a:hover {
+  text-decoration: underline;
+}
+.logIn-form .email-icon {
+  background-image: url("../../../../public/JoinIn/mail-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 20px 15px;
+}
+.logIn-form .password-icon {
+  background-image: url("../../../../public/JoinIn/password-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 20px 15px;
+}
