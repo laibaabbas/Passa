@@ -1,6 +1,9 @@
 import React from "react";
 
 import AppBar from "../../commonComponents/AppBar";
+import ExecutiveCards from "./ExecutiveCards";
+import ManagementCards from "./ManagementCards";
+import VolunteersCards from "./VolunteersCards";
 const ManagementCommittee = () => {
   return (
     <>
@@ -29,6 +32,8 @@ const ManagementCommittee = () => {
             </div>
           </div>
         </div>
+
+        <ManagementCards />
         <div className="wt-bnr-inr  ">
           <div className="container-lg">
             <div className="banner-title-name">
@@ -46,6 +51,7 @@ const ManagementCommittee = () => {
             </div>
           </div>
         </div>
+        <ExecutiveCards />
         <div className="wt-bnr-inr  ">
           <div className="container-lg">
             <div className="banner-title-name">
@@ -65,6 +71,7 @@ const ManagementCommittee = () => {
             </div>
           </div>
         </div>
+        <VolunteersCards />
       </section>
     </>
   );

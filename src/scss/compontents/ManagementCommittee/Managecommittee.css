@@ -1,0 +1,19 @@
+.mc-card .mc-bg-img {
+}
+.mc-card .card-body {
+  margin-bottom: 30px;
+}
+.mc-card .mc-name {
+  color: #4a4a4a;
+  font-size: 22px;
+  margin: 15px 0px 10px 0;
+}
+.mc-card .card-img-overlay {
+  display: flex;
+  justify-content: center;
+}
+.mc-card .mc-pic {
+  width: 134px;
+  height: 134px;
+  margin: 50px 0;
+}

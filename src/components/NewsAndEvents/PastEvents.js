@@ -91,7 +91,7 @@ const PastEvents = () => {
               {cardDate.map((val, index) => {
                 return (
                   <>
-                    <div class="card">
+                    <div class="card ">
                       <img src={val.img} class="card-img-top" alt={index} />
                       <div class="card-img-overlay ">
                         <div className="card-date">
