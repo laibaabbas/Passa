@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
@@ -36,14 +37,14 @@ const WelcomToPaasa = () => {
                 </p>
               </div>
               <div className="info-link">
-                <a href="/">
+                <Link to="AboutPaasa">
                   See more information <ArrowForwardIcon />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="side-img">
-                <img src="./home/welcom3.avif" className="m-tb20" alt="" />
+                <img src="./home/welcom3.avif" className="" alt="" />
               </div>
             </div>
           </div>

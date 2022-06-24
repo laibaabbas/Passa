@@ -1,6 +1,7 @@
 import React from "react";
 import Slide3D from "./Slider3D";
 
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
@@ -26,9 +27,12 @@ const Header = () => {
                     text of the <br /> adipiscing elit, sed diam nonummy nibh
                     euismod tincidunt{" "}
                   </p>
-                  <a href="/" className="btn btn-green header-btn">
+                  <Link
+                    to="/Meetthecommunity"
+                    className="btn btn-green header-btn"
+                  >
                     Meet with Pakistani community
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-6">

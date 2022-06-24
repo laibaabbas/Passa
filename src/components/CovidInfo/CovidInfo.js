@@ -4,8 +4,8 @@ const CovidInfo = () => {
   return (
     <>
       <AppBar />
-      <section className="p-t120 ">
-        <div className="wt-bnr-inr m-b20  p-t100">
+      <section className="m-t120 ">
+        <div className="wt-bnr-inr m-b20  p-t90">
           <div className="container-lg">
             <div className="banner-title-name  ">
               <h1 className="wt-title">COVID 19 Vaccinations info</h1>

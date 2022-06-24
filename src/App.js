@@ -14,6 +14,8 @@ import MemberDetail from "./components/JoinIn/MemberDetail";
 import Payment from "./components/JoinIn/Payment";
 import ManagementCommittee from "./components/ManagementCommittee/ManagementCommittee";
 import NewsEvent from "./components/NewsAndEvents/NewsEvent";
+import PakCommunity from "./components/PakCommunity/PakCommunity";
+import FuneralFund from "./components/FuneralFunds/FuneralFund";
 const App = () => {
   return (
     <>
@@ -29,6 +31,8 @@ const App = () => {
         <Route path="/MemberDetail" element={<MemberDetail />} />
         <Route path="/Payment" element={<Payment />} />
         <Route path="/ManagementCommittee" element={<ManagementCommittee />} />
+        <Route path="/Meetthecommunity" element={<PakCommunity />} />
+        <Route path="/FuneralFunds" element={<FuneralFund />} />
       </Routes>
       <Footer />
     </>

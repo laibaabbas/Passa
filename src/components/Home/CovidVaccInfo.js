@@ -1,5 +1,7 @@
 import React from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
+import { Link } from "react-router-dom";
 const CovidVaccInfo = () => {
   return (
     <>
@@ -39,9 +41,9 @@ const CovidVaccInfo = () => {
                   </p>
                 </div>
                 <div className="info-link">
-                  <a href="/">
+                  <Link to="/Covid19Info">
                     See more information <ArrowForwardIcon />{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -36,11 +36,7 @@ const UrduSchool = () => {
             </div>
             <div className="col-md-4">
               <div className="side-img">
-                <img
-                  className="rounded-img m-t20"
-                  src="./home/urdu2.jpeg"
-                  alt=""
-                />
+                <img className="rounded-img " src="./home/urdu2.jpeg" alt="" />
               </div>
             </div>
           </div>

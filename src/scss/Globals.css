@@ -12,6 +12,8 @@ body {
 }
 p {
   color: #878787;
+
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -1268,3 +1270,5 @@ img {
 @import "./compontents/DonateUs/DonateUs.css";
 @import "./compontents/NewsEvents/NewsEvents.css";
 @import "./compontents/ManagementCommittee/Managecommittee.css";
+@import "./compontents/PakCommunity/pakCommunity.css";
+@import "./compontents/FuneralFund/FuneralFund.css";

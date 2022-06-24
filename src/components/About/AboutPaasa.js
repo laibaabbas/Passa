@@ -36,8 +36,8 @@ const AboutPaasa = () => {
   return (
     <>
       <AppBar />
-      <section className="p-t120 ">
-        <div className="wt-bnr-inr m-b20  p-t80">
+      <section className="m-t120 ">
+        <div className="wt-bnr-inr m-b20  p-t70">
           <div className="container-lg">
             <div className="banner-title-name p-tb20">
               <h1 className="wt-title">About PAASA</h1>
@@ -95,14 +95,14 @@ const AboutPaasa = () => {
             </div>
           </div>
           <div className="container-lg">
-            <div className="wt-bnr-inr">
-              <div className="banner-title-name p-tb10">
-                <h1 className="wt-title">Our Mission & Vision</h1>
-              </div>
-            </div>{" "}
             <div className="row">
+              <div className="wt-bnr-inr">
+                <div className="banner-title-name p-tb10">
+                  <h1 className="wt-title">Our Mission & Vision</h1>
+                </div>
+              </div>{" "}
               <div className="col-sm-7">
-                <div className="para m-r30">
+                <div className="para m-r20">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -129,7 +129,7 @@ const AboutPaasa = () => {
                 <div className="side-img">
                   <img
                     src="./about/about-img1.avif"
-                    className="rounded"
+                    className="rounded "
                     alt=""
                   />
                 </div>

@@ -56,13 +56,13 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/">About PASSA</a>
+                        <Link to="/AboutPaasa">About PASSA</Link>
                       </li>
                       <li>
                         <Link to="/NewsAndEvents">News and Events</Link>
                       </li>
                       <li>
-                        <a href="/">COVID 19 Ifo</a>
+                        <Link to="/Covid19Info">COVID 19 Ifo</Link>
                       </li>
                       <li>
                         <a href="/BookVehicle">Book a Vehicle</a>
@@ -81,10 +81,12 @@ const Footer = () => {
                         <a href="/">Urdu School</a>
                       </li>
                       <li>
-                        <a href="/">Meet the community</a>
+                        <Link to="/Meetthecommunity">Meet the community</Link>
                       </li>
                       <li>
-                        <a href="/">Management committee</a>
+                        <Link to="/ManagementCommittee">
+                          Management committee
+                        </Link>
                       </li>
                       <li>
                         <a href="/">Strategic Objectives</a>
@@ -93,7 +95,7 @@ const Footer = () => {
                         <a href="/">Community Sports Programs</a>
                       </li>
                       <li>
-                        <a href="/">Funeral funds</a>
+                        <a href="/FuneralFunds">Funeral funds</a>
                       </li>
                     </ul>
                   </div>

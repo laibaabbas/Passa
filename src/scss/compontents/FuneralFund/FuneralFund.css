@@ -1,0 +1,10 @@
+.funeral-form-link {
+  font-size: 18px;
+  font-weight: 700;
+
+  font-family: "Open Sans", sans-serif;
+}
+.funeral-form-link a {
+  color: #245576;
+  border-bottom: 1px solid #245576;
+}

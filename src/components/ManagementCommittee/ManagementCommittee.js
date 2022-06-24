@@ -8,8 +8,8 @@ const ManagementCommittee = () => {
   return (
     <>
       <AppBar />
-      <section className="m-t100">
-        <div className="wt-bnr-inr  p-t100">
+      <section className="m-t120">
+        <div className="wt-bnr-inr  p-t50">
           <div className="container-lg">
             <div className="banner-title-name m-t40">
               <h1 className="wt-title">Management committee</h1>

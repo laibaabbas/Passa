@@ -6,8 +6,8 @@ const CommunityVehicle = () => {
   return (
     <>
       <AppBar />
-      <section className="p-t80 ">
-        <div className="wt-bnr-inr  m-b40 p-t100">
+      <section className="p-t100 ">
+        <div className="wt-bnr-inr  m-b40 p-t90">
           <div className="container-lg">
             <div className="banner-title-name p-tb20">
               <h1 className="wt-title">Community Vehicle</h1>
